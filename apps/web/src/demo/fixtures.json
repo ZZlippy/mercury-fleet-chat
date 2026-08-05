@@ -1,0 +1,3151 @@
+{
+  "generatedAt": "2026-08-05T07:43:00.308Z",
+  "operator": {
+    "session": {
+      "user": {
+        "id": "7afde7d3-7ba0-4ed8-bce6-25bac0e39b8d",
+        "username": "operator1",
+        "email": null,
+        "displayName": "Mercury 运营 1"
+      },
+      "organization": {
+        "id": "6d608ab1-7edb-466f-8567-b75893a231fc",
+        "name": "Mercury Operations",
+        "type": "MERCURY"
+      },
+      "role": "OPERATOR"
+    },
+    "state": {
+      "orders": [
+        {
+          "id": "7983fac3-c10d-42ac-a4fd-59229f9581a1",
+          "public_reference": "M-DEMO-1004",
+          "customer_organization_id": "47e92d93-1c88-4f61-aa72-f5a79d803c1e",
+          "status": "DRAFT",
+          "pickup_location_text": "PSA Pasir Panjang Terminal",
+          "delivery_location_text": "Changi Business Park",
+          "container_type": "40HQ",
+          "container_quantity": 1,
+          "pickup_at": "2026-08-09T03:00:00.000Z",
+          "delivery_at": null,
+          "special_requirements": null,
+          "version": 1,
+          "created_at": "2026-08-05T07:43:00.142Z",
+          "updated_at": "2026-08-05T07:43:00.142Z",
+          "customer_reference": null,
+          "carrier_booking_reference": null,
+          "bill_of_lading_reference": null,
+          "shipping_line": null,
+          "vessel_name": null,
+          "voyage_number": null,
+          "pickup_contact_name": null,
+          "pickup_contact_phone": null,
+          "delivery_contact_name": null,
+          "delivery_contact_phone": null,
+          "empty_container_pickup_location": null,
+          "empty_container_return_location": "Tuas Empty Container Depot",
+          "empty_container_return_deadline": null,
+          "container_number": null,
+          "seal_number": null,
+          "cargo_description": null,
+          "gross_weight_kg": null,
+          "is_hazardous": false,
+          "un_number": null,
+          "is_reefer": true,
+          "reefer_temperature_c": "-18.00",
+          "order_type": "IMPORT_DRAYAGE",
+          "service_country": "SG",
+          "requested_start_at": "2026-08-09T03:00:00.000Z",
+          "requested_complete_at": null,
+          "loading_location": null,
+          "origin_terminal": null,
+          "destination_terminal": "PSA Pasir Panjang Terminal",
+          "delivery_location": "Changi Business Park",
+          "empty_container_pickup_at": null,
+          "terminal_cutoff_at": null
+        },
+        {
+          "id": "9a213e9f-610f-4a15-9c55-8122ad262766",
+          "public_reference": "M-DEMO-1003",
+          "customer_organization_id": "47e92d93-1c88-4f61-aa72-f5a79d803c1e",
+          "status": "QUOTING",
+          "pickup_location_text": "PSA Brani Terminal",
+          "delivery_location_text": "Woodlands Logistics Park",
+          "container_type": "40HQ",
+          "container_quantity": 3,
+          "pickup_at": "2026-08-08T02:00:00.000Z",
+          "delivery_at": null,
+          "special_requirements": null,
+          "version": 1,
+          "created_at": "2026-08-05T07:42:59.208Z",
+          "updated_at": "2026-08-05T07:42:59.215Z",
+          "customer_reference": null,
+          "carrier_booking_reference": null,
+          "bill_of_lading_reference": null,
+          "shipping_line": null,
+          "vessel_name": null,
+          "voyage_number": null,
+          "pickup_contact_name": null,
+          "pickup_contact_phone": null,
+          "delivery_contact_name": null,
+          "delivery_contact_phone": null,
+          "empty_container_pickup_location": null,
+          "empty_container_return_location": "Tuas Empty Container Depot",
+          "empty_container_return_deadline": null,
+          "container_number": null,
+          "seal_number": null,
+          "cargo_description": null,
+          "gross_weight_kg": null,
+          "is_hazardous": false,
+          "un_number": null,
+          "is_reefer": false,
+          "reefer_temperature_c": null,
+          "order_type": "IMPORT_DRAYAGE",
+          "service_country": "SG",
+          "requested_start_at": "2026-08-08T02:00:00.000Z",
+          "requested_complete_at": null,
+          "loading_location": null,
+          "origin_terminal": null,
+          "destination_terminal": "PSA Brani Terminal",
+          "delivery_location": "Woodlands Logistics Park",
+          "empty_container_pickup_at": null,
+          "terminal_cutoff_at": null
+        },
+        {
+          "id": "734cd406-8cc2-4245-8fc8-0fe1be5c0b4a",
+          "public_reference": "M-DEMO-1002",
+          "customer_organization_id": "47e92d93-1c88-4f61-aa72-f5a79d803c1e",
+          "status": "IN_PROGRESS",
+          "pickup_location_text": "Tuas Empty Container Depot",
+          "delivery_location_text": "PSA Tuas Terminal",
+          "container_type": "20GP",
+          "container_quantity": 1,
+          "pickup_at": "2026-08-07T01:00:00.000Z",
+          "delivery_at": null,
+          "special_requirements": null,
+          "version": 1,
+          "created_at": "2026-08-05T07:42:56.580Z",
+          "updated_at": "2026-08-05T07:42:58.086Z",
+          "customer_reference": null,
+          "carrier_booking_reference": null,
+          "bill_of_lading_reference": null,
+          "shipping_line": null,
+          "vessel_name": null,
+          "voyage_number": null,
+          "pickup_contact_name": null,
+          "pickup_contact_phone": null,
+          "delivery_contact_name": null,
+          "delivery_contact_phone": null,
+          "empty_container_pickup_location": "Tuas Empty Container Depot",
+          "empty_container_return_location": null,
+          "empty_container_return_deadline": null,
+          "container_number": null,
+          "seal_number": null,
+          "cargo_description": null,
+          "gross_weight_kg": null,
+          "is_hazardous": false,
+          "un_number": null,
+          "is_reefer": false,
+          "reefer_temperature_c": null,
+          "order_type": "EXPORT_DRAYAGE",
+          "service_country": "SG",
+          "requested_start_at": "2026-08-07T01:00:00.000Z",
+          "requested_complete_at": null,
+          "loading_location": "Tuas Warehouse Hub",
+          "origin_terminal": "PSA Tuas Terminal",
+          "destination_terminal": null,
+          "delivery_location": null,
+          "empty_container_pickup_at": "2026-08-07T01:00:00.000Z",
+          "terminal_cutoff_at": null
+        },
+        {
+          "id": "de2a9942-47d0-4ece-8271-100497822e56",
+          "public_reference": "M-DEMO-1001",
+          "customer_organization_id": "47e92d93-1c88-4f61-aa72-f5a79d803c1e",
+          "status": "COMPLETED",
+          "pickup_location_text": "PSA Pasir Panjang Terminal",
+          "delivery_location_text": "Jurong Industrial Estate",
+          "container_type": "40HQ",
+          "container_quantity": 2,
+          "pickup_at": "2026-08-06T01:00:00.000Z",
+          "delivery_at": null,
+          "special_requirements": null,
+          "version": 2,
+          "created_at": "2026-08-05T07:42:52.384Z",
+          "updated_at": "2026-08-05T07:42:56.565Z",
+          "customer_reference": null,
+          "carrier_booking_reference": null,
+          "bill_of_lading_reference": null,
+          "shipping_line": null,
+          "vessel_name": null,
+          "voyage_number": null,
+          "pickup_contact_name": null,
+          "pickup_contact_phone": null,
+          "delivery_contact_name": null,
+          "delivery_contact_phone": null,
+          "empty_container_pickup_location": null,
+          "empty_container_return_location": "Tuas Empty Container Depot",
+          "empty_container_return_deadline": null,
+          "container_number": null,
+          "seal_number": null,
+          "cargo_description": null,
+          "gross_weight_kg": null,
+          "is_hazardous": false,
+          "un_number": null,
+          "is_reefer": false,
+          "reefer_temperature_c": null,
+          "order_type": "IMPORT_DRAYAGE",
+          "service_country": "SG",
+          "requested_start_at": "2026-08-06T01:00:00.000Z",
+          "requested_complete_at": null,
+          "loading_location": null,
+          "origin_terminal": null,
+          "destination_terminal": "PSA Pasir Panjang Terminal",
+          "delivery_location": "Jurong Industrial Estate",
+          "empty_container_pickup_at": null,
+          "terminal_cutoff_at": null
+        },
+        {
+          "id": "0a1c33c0-b61a-4550-8d2b-24f20b6d0c68",
+          "public_reference": "M-1001",
+          "customer_organization_id": "47e92d93-1c88-4f61-aa72-f5a79d803c1e",
+          "status": "DRAFT",
+          "pickup_location_text": "PSA Pasir Panjang Terminal",
+          "delivery_location_text": "Jurong Industrial Estate",
+          "container_type": "40HQ",
+          "container_quantity": 2,
+          "pickup_at": "2026-08-04T01:00:00.000Z",
+          "delivery_at": null,
+          "special_requirements": "演示订单",
+          "version": 1,
+          "created_at": "2026-08-05T07:42:50.600Z",
+          "updated_at": "2026-08-05T07:42:50.600Z",
+          "customer_reference": null,
+          "carrier_booking_reference": null,
+          "bill_of_lading_reference": null,
+          "shipping_line": null,
+          "vessel_name": null,
+          "voyage_number": null,
+          "pickup_contact_name": null,
+          "pickup_contact_phone": null,
+          "delivery_contact_name": null,
+          "delivery_contact_phone": null,
+          "empty_container_pickup_location": null,
+          "empty_container_return_location": "Tuas Empty Container Depot",
+          "empty_container_return_deadline": null,
+          "container_number": null,
+          "seal_number": null,
+          "cargo_description": null,
+          "gross_weight_kg": null,
+          "is_hazardous": false,
+          "un_number": null,
+          "is_reefer": false,
+          "reefer_temperature_c": null,
+          "order_type": "IMPORT_DRAYAGE",
+          "service_country": "SG",
+          "requested_start_at": "2026-08-04T01:00:00.000Z",
+          "requested_complete_at": "2026-08-04T09:00:00.000Z",
+          "loading_location": null,
+          "origin_terminal": null,
+          "destination_terminal": "PSA Pasir Panjang Terminal",
+          "delivery_location": "Jurong Industrial Estate",
+          "empty_container_pickup_at": null,
+          "terminal_cutoff_at": null
+        }
+      ],
+      "rfqs": [
+        {
+          "id": "52e99cf8-d1e9-4ae2-aef3-9908dc6c1379",
+          "order_id": "9a213e9f-610f-4a15-9c55-8122ad262766",
+          "public_reference": "RFQ-DEMO-1003",
+          "status": "ACTIVE",
+          "revision": 1,
+          "expires_at": null,
+          "sent_at": "2026-08-05T07:42:59.215Z",
+          "created_at": "2026-08-05T07:42:59.215Z",
+          "updated_at": "2026-08-05T07:42:59.215Z"
+        },
+        {
+          "id": "ccbcfc72-f1d3-4df5-a08d-19220a3b7fc4",
+          "order_id": "734cd406-8cc2-4245-8fc8-0fe1be5c0b4a",
+          "public_reference": "RFQ-DEMO-1002",
+          "status": "CLOSED",
+          "revision": 1,
+          "expires_at": null,
+          "sent_at": "2026-08-05T07:42:56.592Z",
+          "created_at": "2026-08-05T07:42:56.592Z",
+          "updated_at": "2026-08-05T07:42:57.544Z"
+        },
+        {
+          "id": "ea42cb71-a386-4d01-8f4e-fbae5cf0a6c9",
+          "order_id": "de2a9942-47d0-4ece-8271-100497822e56",
+          "public_reference": "RFQ-DEMO-1001",
+          "status": "CLOSED",
+          "revision": 1,
+          "expires_at": null,
+          "sent_at": "2026-08-05T07:42:52.403Z",
+          "created_at": "2026-08-05T07:42:52.403Z",
+          "updated_at": "2026-08-05T07:42:53.666Z"
+        }
+      ],
+      "recipients": [
+        {
+          "id": "22990fcf-cf66-4083-946b-b08b25c80fcf",
+          "rfq_id": "52e99cf8-d1e9-4ae2-aef3-9908dc6c1379",
+          "fleet_organization_id": "af990f73-feca-419a-9fa5-a30353740851",
+          "status": "QUOTED",
+          "notified_revision": 1,
+          "acknowledged_revision": 1,
+          "sent_at": "2026-08-05T07:42:59.215Z",
+          "viewed_at": null,
+          "responded_at": "2026-08-05T07:43:00.127Z",
+          "last_reminded_at": null,
+          "reminder_count": 0,
+          "decline_reason": null,
+          "created_at": "2026-08-05T07:42:59.215Z",
+          "updated_at": "2026-08-05T07:43:00.127Z",
+          "fleet_name": "Fleet 3"
+        },
+        {
+          "id": "9ac1dce2-cb96-4909-8216-f8e74ac26195",
+          "rfq_id": "ccbcfc72-f1d3-4df5-a08d-19220a3b7fc4",
+          "fleet_organization_id": "b191891a-4a79-42f9-9ccc-bfafce42c4a9",
+          "status": "QUOTED",
+          "notified_revision": 1,
+          "acknowledged_revision": 1,
+          "sent_at": "2026-08-05T07:42:56.592Z",
+          "viewed_at": null,
+          "responded_at": "2026-08-05T07:42:57.521Z",
+          "last_reminded_at": null,
+          "reminder_count": 0,
+          "decline_reason": null,
+          "created_at": "2026-08-05T07:42:56.592Z",
+          "updated_at": "2026-08-05T07:42:57.521Z",
+          "fleet_name": "Fleet 2"
+        },
+        {
+          "id": "a063e7a4-5120-4bbe-8e5e-b8c0fc0626a8",
+          "rfq_id": "ea42cb71-a386-4d01-8f4e-fbae5cf0a6c9",
+          "fleet_organization_id": "39a689d7-571f-4025-ba33-404f473b7e4a",
+          "status": "QUOTED",
+          "notified_revision": 1,
+          "acknowledged_revision": 1,
+          "sent_at": "2026-08-05T07:42:52.403Z",
+          "viewed_at": null,
+          "responded_at": "2026-08-05T07:42:53.610Z",
+          "last_reminded_at": null,
+          "reminder_count": 0,
+          "decline_reason": null,
+          "created_at": "2026-08-05T07:42:52.403Z",
+          "updated_at": "2026-08-05T07:42:53.610Z",
+          "fleet_name": "Fleet 1"
+        }
+      ],
+      "quotes": [
+        {
+          "id": "f3891cbe-34cc-4d5d-97b2-379193e1accc",
+          "rfq_recipient_id": "22990fcf-cf66-4083-946b-b08b25c80fcf",
+          "based_on_order_version": 1,
+          "based_on_rfq_revision": 1,
+          "status": "SUBMITTED",
+          "amount": "310.00",
+          "currency": "USD",
+          "currency_source": "DEFAULTED",
+          "currency_confirmed_at": "2026-08-05T07:43:00.127Z",
+          "is_all_in": true,
+          "vehicle_available": true,
+          "available_from": "2026-08-08T02:00:00.000Z",
+          "valid_until": null,
+          "terms": null,
+          "source_message_id": "a17483d8-cb32-45fc-89ee-fcea18e0cd52",
+          "submitted_at": "2026-08-05T07:43:00.127Z",
+          "invalidated_at": null,
+          "invalidated_reason": null,
+          "supersedes_quote_id": null,
+          "superseded_by_quote_id": null,
+          "created_by_user_id": "d1423bbf-4967-48e7-a869-06ee27a4386e",
+          "version": 2,
+          "created_at": "2026-08-05T07:42:59.594Z",
+          "updated_at": "2026-08-05T07:43:00.127Z"
+        },
+        {
+          "id": "146b75b7-7595-4b27-8b73-250b775fd0b4",
+          "rfq_recipient_id": "9ac1dce2-cb96-4909-8216-f8e74ac26195",
+          "based_on_order_version": 1,
+          "based_on_rfq_revision": 1,
+          "status": "ACCEPTED",
+          "amount": "150.00",
+          "currency": "USD",
+          "currency_source": "DEFAULTED",
+          "currency_confirmed_at": "2026-08-05T07:42:57.521Z",
+          "is_all_in": true,
+          "vehicle_available": true,
+          "available_from": "2026-08-07T01:00:00.000Z",
+          "valid_until": null,
+          "terms": null,
+          "source_message_id": "949ca55a-09c5-4f74-b59b-34ed6b8804d4",
+          "submitted_at": "2026-08-05T07:42:57.521Z",
+          "invalidated_at": null,
+          "invalidated_reason": null,
+          "supersedes_quote_id": null,
+          "superseded_by_quote_id": null,
+          "created_by_user_id": "441dbfd3-2160-4d30-97c1-97178df8b925",
+          "version": 3,
+          "created_at": "2026-08-05T07:42:56.987Z",
+          "updated_at": "2026-08-05T07:42:57.544Z"
+        },
+        {
+          "id": "c8f071d7-48ae-4a92-a757-8158fc1b4223",
+          "rfq_recipient_id": "a063e7a4-5120-4bbe-8e5e-b8c0fc0626a8",
+          "based_on_order_version": 1,
+          "based_on_rfq_revision": 1,
+          "status": "ACCEPTED",
+          "amount": "220.00",
+          "currency": "USD",
+          "currency_source": "DEFAULTED",
+          "currency_confirmed_at": "2026-08-05T07:42:53.610Z",
+          "is_all_in": true,
+          "vehicle_available": true,
+          "available_from": "2026-08-06T01:00:00.000Z",
+          "valid_until": null,
+          "terms": null,
+          "source_message_id": "cef75ac4-02d6-4343-bcf3-f5f1fcb21abb",
+          "submitted_at": "2026-08-05T07:42:53.610Z",
+          "invalidated_at": null,
+          "invalidated_reason": null,
+          "supersedes_quote_id": null,
+          "superseded_by_quote_id": null,
+          "created_by_user_id": "45159154-6797-4265-92d7-d13a2228b45c",
+          "version": 3,
+          "created_at": "2026-08-05T07:42:53.078Z",
+          "updated_at": "2026-08-05T07:42:53.666Z"
+        }
+      ],
+      "bookings": [
+        {
+          "id": "6d90d687-85c9-4806-a42a-c1e76b347e32",
+          "public_reference": "B-DEMO-1002",
+          "order_id": "734cd406-8cc2-4245-8fc8-0fe1be5c0b4a",
+          "selected_quote_id": "146b75b7-7595-4b27-8b73-250b775fd0b4",
+          "fleet_organization_id": "b191891a-4a79-42f9-9ccc-bfafce42c4a9",
+          "status": "IN_PROGRESS",
+          "confirmed_amount": "150.00",
+          "confirmed_currency": "USD",
+          "confirmed_terms": null,
+          "confirmed_order_version": 1,
+          "scheduled_pickup_at": "2026-08-07T01:00:00.000Z",
+          "offered_at": "2026-08-05T07:42:57.544Z",
+          "accepted_at": "2026-08-05T07:42:58.086Z",
+          "cancelled_at": null,
+          "cancellation_reason": null,
+          "version": 3,
+          "created_at": "2026-08-05T07:42:57.544Z",
+          "updated_at": "2026-08-05T07:42:58.650Z",
+          "confirmed_order_type": "EXPORT_DRAYAGE",
+          "container_type_snapshot": "20GP",
+          "container_quantity_snapshot": 1,
+          "scheduled_start_at": "2026-08-07T01:00:00.000Z"
+        },
+        {
+          "id": "ec48a751-288c-49b1-b6d1-051b954e9762",
+          "public_reference": "B-DEMO-1001",
+          "order_id": "de2a9942-47d0-4ece-8271-100497822e56",
+          "selected_quote_id": "c8f071d7-48ae-4a92-a757-8158fc1b4223",
+          "fleet_organization_id": "39a689d7-571f-4025-ba33-404f473b7e4a",
+          "status": "COMPLETED",
+          "confirmed_amount": "220.00",
+          "confirmed_currency": "USD",
+          "confirmed_terms": null,
+          "confirmed_order_version": 1,
+          "scheduled_pickup_at": "2026-08-06T01:00:00.000Z",
+          "offered_at": "2026-08-05T07:42:53.666Z",
+          "accepted_at": "2026-08-05T07:42:53.953Z",
+          "cancelled_at": null,
+          "cancellation_reason": null,
+          "version": 5,
+          "created_at": "2026-08-05T07:42:53.666Z",
+          "updated_at": "2026-08-05T07:42:56.565Z",
+          "confirmed_order_type": "IMPORT_DRAYAGE",
+          "container_type_snapshot": "40HQ",
+          "container_quantity_snapshot": 2,
+          "scheduled_start_at": "2026-08-06T01:00:00.000Z"
+        }
+      ],
+      "shipments": [
+        {
+          "id": "cebf4d5d-ae2e-4524-9b96-3d8c1d72ac12",
+          "booking_id": "6d90d687-85c9-4806-a42a-c1e76b347e32",
+          "current_status": "AT_LOADING_LOCATION",
+          "estimated_arrival_at": null,
+          "actual_pickup_at": null,
+          "actual_delivery_at": null,
+          "version": 3,
+          "created_at": "2026-08-05T07:42:58.086Z",
+          "updated_at": "2026-08-05T07:42:59.198Z"
+        },
+        {
+          "id": "ef684543-4a20-45ce-9f79-61048191c1dc",
+          "booking_id": "ec48a751-288c-49b1-b6d1-051b954e9762",
+          "current_status": "COMPLETED",
+          "estimated_arrival_at": null,
+          "actual_pickup_at": null,
+          "actual_delivery_at": null,
+          "version": 9,
+          "created_at": "2026-08-05T07:42:53.953Z",
+          "updated_at": "2026-08-05T07:42:56.565Z"
+        }
+      ],
+      "exceptions": [],
+      "fleets": [
+        {
+          "id": "39a689d7-571f-4025-ba33-404f473b7e4a",
+          "name": "Fleet 1"
+        },
+        {
+          "id": "0c972c08-702b-4bfa-ab8a-a3b27fc95f26",
+          "name": "Fleet 10"
+        },
+        {
+          "id": "b191891a-4a79-42f9-9ccc-bfafce42c4a9",
+          "name": "Fleet 2"
+        },
+        {
+          "id": "af990f73-feca-419a-9fa5-a30353740851",
+          "name": "Fleet 3"
+        },
+        {
+          "id": "14d426d4-d541-4c5d-892f-dc6904b4bd91",
+          "name": "Fleet 4"
+        },
+        {
+          "id": "7700056f-3791-4632-a361-ea7e27c98402",
+          "name": "Fleet 5"
+        },
+        {
+          "id": "578c34ec-1771-4e2a-a506-b3bf2a99b9bd",
+          "name": "Fleet 6"
+        },
+        {
+          "id": "075f8862-4ac8-469c-944d-bb9400df17e3",
+          "name": "Fleet 7"
+        },
+        {
+          "id": "77aeeeb5-fef7-4fc4-9e08-55fdadd6bda6",
+          "name": "Fleet 8"
+        },
+        {
+          "id": "1db9b9fa-3bac-4190-ac9c-bf226a8bb442",
+          "name": "Fleet 9"
+        }
+      ]
+    },
+    "audit": {
+      "audit": [
+        {
+          "id": "bd640e8b-1e2c-4fd5-aa4c-1932e564d289",
+          "actor_type": "USER",
+          "actor_user_id": "0f4674da-3ac7-40fc-bd97-2d48a0a9902a",
+          "organization_id": "14d426d4-d541-4c5d-892f-dc6904b4bd91",
+          "action": "fleet_profile.submitted",
+          "object_type": "FLEET_PROFILE_VERSION",
+          "object_id": "02146151-1835-4f60-996b-265eab2924e7",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": {
+            "version": 2,
+            "acceptingOrders": true,
+            "operatingCountries": [
+              "MY",
+              "SG"
+            ]
+          },
+          "metadata": {},
+          "created_at": "2026-08-05T07:43:00.234Z"
+        },
+        {
+          "id": "c70e116e-ad2b-42f4-badd-6224786eb3a2",
+          "actor_type": "OPERATOR",
+          "actor_user_id": "7afde7d3-7ba0-4ed8-bce6-25bac0e39b8d",
+          "organization_id": "6d608ab1-7edb-466f-8567-b75893a231fc",
+          "action": "order.created",
+          "object_type": "ORDER",
+          "object_id": "7983fac3-c10d-42ac-a4fd-59229f9581a1",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": {
+            "publicReference": "M-DEMO-1004"
+          },
+          "metadata": {},
+          "created_at": "2026-08-05T07:43:00.142Z"
+        },
+        {
+          "id": "7ba0661a-fbf2-4eb8-b74c-9d60d40a0bab",
+          "actor_type": "USER",
+          "actor_user_id": "d1423bbf-4967-48e7-a869-06ee27a4386e",
+          "organization_id": "af990f73-feca-419a-9fa5-a30353740851",
+          "action": "action.consumed",
+          "object_type": "MESSAGE_ACTION",
+          "object_id": "160c65d2-20d3-41c1-a7be-f1c4ba2a0dfd",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": null,
+          "metadata": {
+            "actionType": "CONFIRM_QUOTE",
+            "clientIdempotencyKey": "13ff5295-56ac-4b6d-a080-7880e566dc51"
+          },
+          "created_at": "2026-08-05T07:43:00.127Z"
+        },
+        {
+          "id": "255ec368-e35d-4298-893c-7f4389755661",
+          "actor_type": "USER",
+          "actor_user_id": "d1423bbf-4967-48e7-a869-06ee27a4386e",
+          "organization_id": "af990f73-feca-419a-9fa5-a30353740851",
+          "action": "quote.submitted",
+          "object_type": "QUOTE",
+          "object_id": "f3891cbe-34cc-4d5d-97b2-379193e1accc",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": {
+            "amount": "310.00",
+            "currency": "USD",
+            "rfqRevision": 1,
+            "orderVersion": 1
+          },
+          "metadata": {
+            "viaActionId": "160c65d2-20d3-41c1-a7be-f1c4ba2a0dfd"
+          },
+          "created_at": "2026-08-05T07:43:00.127Z"
+        },
+        {
+          "id": "278fd13a-7376-482e-9b8d-8728913e6246",
+          "actor_type": "USER",
+          "actor_user_id": "d1423bbf-4967-48e7-a869-06ee27a4386e",
+          "organization_id": "af990f73-feca-419a-9fa5-a30353740851",
+          "action": "quote.drafted",
+          "object_type": "QUOTE",
+          "object_id": "f3891cbe-34cc-4d5d-97b2-379193e1accc",
+          "source_message_id": "a17483d8-cb32-45fc-89ee-fcea18e0cd52",
+          "before_data": null,
+          "after_data": {
+            "amount": "310.00",
+            "currency": "USD",
+            "rfqRevision": 1,
+            "currencySource": "DEFAULTED"
+          },
+          "metadata": {},
+          "created_at": "2026-08-05T07:42:59.594Z"
+        },
+        {
+          "id": "a90eeeaf-e714-4ae2-a27d-de6abf665e8c",
+          "actor_type": "USER",
+          "actor_user_id": "d1423bbf-4967-48e7-a869-06ee27a4386e",
+          "organization_id": "af990f73-feca-419a-9fa5-a30353740851",
+          "action": "action.consumed",
+          "object_type": "MESSAGE_ACTION",
+          "object_id": "64e9d055-6858-4ac1-b8e7-c80492a9aa0b",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": null,
+          "metadata": {
+            "actionType": "MODIFY_QUOTE",
+            "clientIdempotencyKey": "2bfc037d-22d4-4124-8745-8c23f24da5cd"
+          },
+          "created_at": "2026-08-05T07:42:59.582Z"
+        },
+        {
+          "id": "8f84c575-5d63-4f93-ac4a-9886fb15e628",
+          "actor_type": "OPERATOR",
+          "actor_user_id": "7afde7d3-7ba0-4ed8-bce6-25bac0e39b8d",
+          "organization_id": "6d608ab1-7edb-466f-8567-b75893a231fc",
+          "action": "rfq.sent",
+          "object_type": "RFQ_RECIPIENT",
+          "object_id": "22990fcf-cf66-4083-946b-b08b25c80fcf",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": {
+            "revision": 1,
+            "fleetOrganizationId": "af990f73-feca-419a-9fa5-a30353740851"
+          },
+          "metadata": {},
+          "created_at": "2026-08-05T07:42:59.215Z"
+        },
+        {
+          "id": "49c3be3b-0b8b-41fc-b50a-d4da32bf85a2",
+          "actor_type": "OPERATOR",
+          "actor_user_id": "7afde7d3-7ba0-4ed8-bce6-25bac0e39b8d",
+          "organization_id": "6d608ab1-7edb-466f-8567-b75893a231fc",
+          "action": "rfq.created",
+          "object_type": "RFQ",
+          "object_id": "52e99cf8-d1e9-4ae2-aef3-9908dc6c1379",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": {
+            "revision": 1
+          },
+          "metadata": {},
+          "created_at": "2026-08-05T07:42:59.215Z"
+        },
+        {
+          "id": "eba51442-085e-42dc-9253-c09f3d97d4a2",
+          "actor_type": "OPERATOR",
+          "actor_user_id": "7afde7d3-7ba0-4ed8-bce6-25bac0e39b8d",
+          "organization_id": "6d608ab1-7edb-466f-8567-b75893a231fc",
+          "action": "rfq.recipients_confirmed",
+          "object_type": "ORDER",
+          "object_id": "9a213e9f-610f-4a15-9c55-8122ad262766",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": null,
+          "metadata": {
+            "mode": "EXPLICIT",
+            "selectedFleetOrganizationIds": [
+              "af990f73-feca-419a-9fa5-a30353740851"
+            ],
+            "defaultEligibleFleetOrganizationIds": [
+              "39a689d7-571f-4025-ba33-404f473b7e4a",
+              "0c972c08-702b-4bfa-ab8a-a3b27fc95f26",
+              "b191891a-4a79-42f9-9ccc-bfafce42c4a9",
+              "af990f73-feca-419a-9fa5-a30353740851",
+              "14d426d4-d541-4c5d-892f-dc6904b4bd91",
+              "7700056f-3791-4632-a361-ea7e27c98402",
+              "578c34ec-1771-4e2a-a506-b3bf2a99b9bd",
+              "075f8862-4ac8-469c-944d-bb9400df17e3",
+              "77aeeeb5-fef7-4fc4-9e08-55fdadd6bda6",
+              "1db9b9fa-3bac-4190-ac9c-bf226a8bb442"
+            ]
+          },
+          "created_at": "2026-08-05T07:42:59.215Z"
+        },
+        {
+          "id": "e7b35221-bbef-49fe-8df4-bb51a89e888d",
+          "actor_type": "OPERATOR",
+          "actor_user_id": "7afde7d3-7ba0-4ed8-bce6-25bac0e39b8d",
+          "organization_id": "6d608ab1-7edb-466f-8567-b75893a231fc",
+          "action": "order.created",
+          "object_type": "ORDER",
+          "object_id": "9a213e9f-610f-4a15-9c55-8122ad262766",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": {
+            "publicReference": "M-DEMO-1003"
+          },
+          "metadata": {},
+          "created_at": "2026-08-05T07:42:59.208Z"
+        },
+        {
+          "id": "dda557c2-d3e9-4ef1-97a0-c63c6c8b2389",
+          "actor_type": "USER",
+          "actor_user_id": "441dbfd3-2160-4d30-97c1-97178df8b925",
+          "organization_id": "b191891a-4a79-42f9-9ccc-bfafce42c4a9",
+          "action": "action.consumed",
+          "object_type": "MESSAGE_ACTION",
+          "object_id": "fedcffc1-c945-41f2-9235-bf86c358f347",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": null,
+          "metadata": {
+            "actionType": "CONFIRM_SHIPMENT_STATUS",
+            "clientIdempotencyKey": "d5fafee4-94ad-4d0a-9b7f-e847c085982a"
+          },
+          "created_at": "2026-08-05T07:42:59.198Z"
+        },
+        {
+          "id": "923e0281-7b2b-4a95-bd41-0f80ca40d3ca",
+          "actor_type": "USER",
+          "actor_user_id": "441dbfd3-2160-4d30-97c1-97178df8b925",
+          "organization_id": "b191891a-4a79-42f9-9ccc-bfafce42c4a9",
+          "action": "shipment.status_changed",
+          "object_type": "SHIPMENT",
+          "object_id": "cebf4d5d-ae2e-4524-9b96-3d8c1d72ac12",
+          "source_message_id": null,
+          "before_data": {
+            "status": "EMPTY_CONTAINER_PICKED_UP"
+          },
+          "after_data": {
+            "status": "AT_LOADING_LOCATION"
+          },
+          "metadata": {
+            "orderType": "EXPORT_DRAYAGE"
+          },
+          "created_at": "2026-08-05T07:42:59.198Z"
+        },
+        {
+          "id": "e194b7d1-6f6e-40a3-a367-00282e1924d7",
+          "actor_type": "USER",
+          "actor_user_id": "441dbfd3-2160-4d30-97c1-97178df8b925",
+          "organization_id": "b191891a-4a79-42f9-9ccc-bfafce42c4a9",
+          "action": "action.consumed",
+          "object_type": "MESSAGE_ACTION",
+          "object_id": "2a5cbbaf-d1de-4db8-8869-fafe4a0ba565",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": null,
+          "metadata": {
+            "actionType": "CONFIRM_SHIPMENT_STATUS",
+            "clientIdempotencyKey": "270230d9-0b39-4e22-b683-f2d8af0cd861"
+          },
+          "created_at": "2026-08-05T07:42:58.650Z"
+        },
+        {
+          "id": "fcdcd5f9-dcc2-4418-bf54-d8ae996fa6aa",
+          "actor_type": "USER",
+          "actor_user_id": "441dbfd3-2160-4d30-97c1-97178df8b925",
+          "organization_id": "b191891a-4a79-42f9-9ccc-bfafce42c4a9",
+          "action": "shipment.status_changed",
+          "object_type": "SHIPMENT",
+          "object_id": "cebf4d5d-ae2e-4524-9b96-3d8c1d72ac12",
+          "source_message_id": null,
+          "before_data": {
+            "status": "WAITING_EMPTY_CONTAINER_RELEASE"
+          },
+          "after_data": {
+            "status": "EMPTY_CONTAINER_PICKED_UP"
+          },
+          "metadata": {
+            "orderType": "EXPORT_DRAYAGE"
+          },
+          "created_at": "2026-08-05T07:42:58.650Z"
+        },
+        {
+          "id": "fe86e2d2-3044-40ca-87d6-8f83013cc999",
+          "actor_type": "USER",
+          "actor_user_id": "441dbfd3-2160-4d30-97c1-97178df8b925",
+          "organization_id": "b191891a-4a79-42f9-9ccc-bfafce42c4a9",
+          "action": "shipment.created",
+          "object_type": "SHIPMENT",
+          "object_id": "cebf4d5d-ae2e-4524-9b96-3d8c1d72ac12",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": {
+            "status": "WAITING_EMPTY_CONTAINER_RELEASE",
+            "orderType": "EXPORT_DRAYAGE"
+          },
+          "metadata": {},
+          "created_at": "2026-08-05T07:42:58.086Z"
+        },
+        {
+          "id": "9a79e68d-79d3-42ee-be21-5ccaca4830c9",
+          "actor_type": "USER",
+          "actor_user_id": "441dbfd3-2160-4d30-97c1-97178df8b925",
+          "organization_id": "b191891a-4a79-42f9-9ccc-bfafce42c4a9",
+          "action": "action.consumed",
+          "object_type": "MESSAGE_ACTION",
+          "object_id": "137f2436-5a2a-4541-88f3-64218018e5dc",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": null,
+          "metadata": {
+            "actionType": "ACCEPT_BOOKING",
+            "clientIdempotencyKey": "2459cb58-b1f4-44f6-946b-61af8c72ef67"
+          },
+          "created_at": "2026-08-05T07:42:58.086Z"
+        },
+        {
+          "id": "c33bc954-25b2-4dfe-a695-1610114dada0",
+          "actor_type": "USER",
+          "actor_user_id": "441dbfd3-2160-4d30-97c1-97178df8b925",
+          "organization_id": "b191891a-4a79-42f9-9ccc-bfafce42c4a9",
+          "action": "booking.accepted",
+          "object_type": "BOOKING",
+          "object_id": "6d90d687-85c9-4806-a42a-c1e76b347e32",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": null,
+          "metadata": {},
+          "created_at": "2026-08-05T07:42:58.086Z"
+        },
+        {
+          "id": "ae7fc986-c891-409c-a26d-1b9d48ee4ade",
+          "actor_type": "OPERATOR",
+          "actor_user_id": "7afde7d3-7ba0-4ed8-bce6-25bac0e39b8d",
+          "organization_id": "6d608ab1-7edb-466f-8567-b75893a231fc",
+          "action": "booking.offered",
+          "object_type": "BOOKING",
+          "object_id": "6d90d687-85c9-4806-a42a-c1e76b347e32",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": {
+            "amount": "150.00",
+            "currency": "USD",
+            "orderVersion": 1
+          },
+          "metadata": {},
+          "created_at": "2026-08-05T07:42:57.544Z"
+        },
+        {
+          "id": "7bb22aca-14db-4c83-9269-2c4e8dbbf785",
+          "actor_type": "OPERATOR",
+          "actor_user_id": "7afde7d3-7ba0-4ed8-bce6-25bac0e39b8d",
+          "organization_id": "6d608ab1-7edb-466f-8567-b75893a231fc",
+          "action": "quote.accepted",
+          "object_type": "QUOTE",
+          "object_id": "146b75b7-7595-4b27-8b73-250b775fd0b4",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": null,
+          "metadata": {
+            "bookingId": "6d90d687-85c9-4806-a42a-c1e76b347e32"
+          },
+          "created_at": "2026-08-05T07:42:57.544Z"
+        },
+        {
+          "id": "ee235b71-8bd2-4005-8f81-f6b165061e3e",
+          "actor_type": "USER",
+          "actor_user_id": "441dbfd3-2160-4d30-97c1-97178df8b925",
+          "organization_id": "b191891a-4a79-42f9-9ccc-bfafce42c4a9",
+          "action": "action.consumed",
+          "object_type": "MESSAGE_ACTION",
+          "object_id": "84020c7b-72c6-4903-808f-dcc1cf388fb1",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": null,
+          "metadata": {
+            "actionType": "CONFIRM_QUOTE",
+            "clientIdempotencyKey": "1f6ca3b9-ed4e-4675-90ee-360d9aed775b"
+          },
+          "created_at": "2026-08-05T07:42:57.521Z"
+        },
+        {
+          "id": "da0c0f33-3911-4e83-bf29-eaf07d9f6d4b",
+          "actor_type": "USER",
+          "actor_user_id": "441dbfd3-2160-4d30-97c1-97178df8b925",
+          "organization_id": "b191891a-4a79-42f9-9ccc-bfafce42c4a9",
+          "action": "quote.submitted",
+          "object_type": "QUOTE",
+          "object_id": "146b75b7-7595-4b27-8b73-250b775fd0b4",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": {
+            "amount": "150.00",
+            "currency": "USD",
+            "rfqRevision": 1,
+            "orderVersion": 1
+          },
+          "metadata": {
+            "viaActionId": "84020c7b-72c6-4903-808f-dcc1cf388fb1"
+          },
+          "created_at": "2026-08-05T07:42:57.521Z"
+        },
+        {
+          "id": "031f7a8f-81a0-4ccf-a60d-fc91e533b084",
+          "actor_type": "USER",
+          "actor_user_id": "441dbfd3-2160-4d30-97c1-97178df8b925",
+          "organization_id": "b191891a-4a79-42f9-9ccc-bfafce42c4a9",
+          "action": "quote.drafted",
+          "object_type": "QUOTE",
+          "object_id": "146b75b7-7595-4b27-8b73-250b775fd0b4",
+          "source_message_id": "949ca55a-09c5-4f74-b59b-34ed6b8804d4",
+          "before_data": null,
+          "after_data": {
+            "amount": "150.00",
+            "currency": "USD",
+            "rfqRevision": 1,
+            "currencySource": "DEFAULTED"
+          },
+          "metadata": {},
+          "created_at": "2026-08-05T07:42:56.987Z"
+        },
+        {
+          "id": "8cfee7f6-d29c-4a13-92d1-fd0013a0640a",
+          "actor_type": "USER",
+          "actor_user_id": "441dbfd3-2160-4d30-97c1-97178df8b925",
+          "organization_id": "b191891a-4a79-42f9-9ccc-bfafce42c4a9",
+          "action": "action.consumed",
+          "object_type": "MESSAGE_ACTION",
+          "object_id": "525250c0-79a9-4e47-801c-352203e50be4",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": null,
+          "metadata": {
+            "actionType": "MODIFY_QUOTE",
+            "clientIdempotencyKey": "a6e486d2-10f1-4ce2-9009-a573f43d606e"
+          },
+          "created_at": "2026-08-05T07:42:56.972Z"
+        },
+        {
+          "id": "ebb00623-b00c-4aad-924d-18109da2bb45",
+          "actor_type": "OPERATOR",
+          "actor_user_id": "7afde7d3-7ba0-4ed8-bce6-25bac0e39b8d",
+          "organization_id": "6d608ab1-7edb-466f-8567-b75893a231fc",
+          "action": "rfq.created",
+          "object_type": "RFQ",
+          "object_id": "ccbcfc72-f1d3-4df5-a08d-19220a3b7fc4",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": {
+            "revision": 1
+          },
+          "metadata": {},
+          "created_at": "2026-08-05T07:42:56.592Z"
+        },
+        {
+          "id": "35ffe08a-a9b5-4b45-8129-a7e562559b25",
+          "actor_type": "OPERATOR",
+          "actor_user_id": "7afde7d3-7ba0-4ed8-bce6-25bac0e39b8d",
+          "organization_id": "6d608ab1-7edb-466f-8567-b75893a231fc",
+          "action": "rfq.sent",
+          "object_type": "RFQ_RECIPIENT",
+          "object_id": "9ac1dce2-cb96-4909-8216-f8e74ac26195",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": {
+            "revision": 1,
+            "fleetOrganizationId": "b191891a-4a79-42f9-9ccc-bfafce42c4a9"
+          },
+          "metadata": {},
+          "created_at": "2026-08-05T07:42:56.592Z"
+        },
+        {
+          "id": "2d21ee13-5b21-4c59-8158-764ee5f1a00f",
+          "actor_type": "OPERATOR",
+          "actor_user_id": "7afde7d3-7ba0-4ed8-bce6-25bac0e39b8d",
+          "organization_id": "6d608ab1-7edb-466f-8567-b75893a231fc",
+          "action": "rfq.recipients_confirmed",
+          "object_type": "ORDER",
+          "object_id": "734cd406-8cc2-4245-8fc8-0fe1be5c0b4a",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": null,
+          "metadata": {
+            "mode": "EXPLICIT",
+            "selectedFleetOrganizationIds": [
+              "b191891a-4a79-42f9-9ccc-bfafce42c4a9"
+            ],
+            "defaultEligibleFleetOrganizationIds": [
+              "39a689d7-571f-4025-ba33-404f473b7e4a",
+              "0c972c08-702b-4bfa-ab8a-a3b27fc95f26",
+              "b191891a-4a79-42f9-9ccc-bfafce42c4a9",
+              "af990f73-feca-419a-9fa5-a30353740851",
+              "14d426d4-d541-4c5d-892f-dc6904b4bd91",
+              "7700056f-3791-4632-a361-ea7e27c98402",
+              "578c34ec-1771-4e2a-a506-b3bf2a99b9bd",
+              "075f8862-4ac8-469c-944d-bb9400df17e3",
+              "77aeeeb5-fef7-4fc4-9e08-55fdadd6bda6",
+              "1db9b9fa-3bac-4190-ac9c-bf226a8bb442"
+            ]
+          },
+          "created_at": "2026-08-05T07:42:56.591Z"
+        },
+        {
+          "id": "f9f887d5-c5dd-42e1-ab97-19f43ae84cd4",
+          "actor_type": "OPERATOR",
+          "actor_user_id": "7afde7d3-7ba0-4ed8-bce6-25bac0e39b8d",
+          "organization_id": "6d608ab1-7edb-466f-8567-b75893a231fc",
+          "action": "order.created",
+          "object_type": "ORDER",
+          "object_id": "734cd406-8cc2-4245-8fc8-0fe1be5c0b4a",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": {
+            "publicReference": "M-DEMO-1002"
+          },
+          "metadata": {},
+          "created_at": "2026-08-05T07:42:56.580Z"
+        },
+        {
+          "id": "e83769cf-13c2-45a6-8428-b5e08f121a9d",
+          "actor_type": "OPERATOR",
+          "actor_user_id": "7afde7d3-7ba0-4ed8-bce6-25bac0e39b8d",
+          "organization_id": "6d608ab1-7edb-466f-8567-b75893a231fc",
+          "action": "shipment.documents_approved",
+          "object_type": "SHIPMENT",
+          "object_id": "ef684543-4a20-45ce-9f79-61048191c1dc",
+          "source_message_id": null,
+          "before_data": {
+            "status": "REVIEW_PENDING"
+          },
+          "after_data": {
+            "status": "COMPLETED"
+          },
+          "metadata": {
+            "note": null
+          },
+          "created_at": "2026-08-05T07:42:56.565Z"
+        },
+        {
+          "id": "d69ee179-19ec-4273-a0e0-f8e8ffef314b",
+          "actor_type": "USER",
+          "actor_user_id": "45159154-6797-4265-92d7-d13a2228b45c",
+          "organization_id": "39a689d7-571f-4025-ba33-404f473b7e4a",
+          "action": "document.shipment_uploaded",
+          "object_type": "DOCUMENT",
+          "object_id": "ae68f996-1fe0-4d01-83f9-3f6e044b363c",
+          "source_message_id": "4f006a91-29c7-40c2-8d0d-8c8b9bffd695",
+          "before_data": null,
+          "after_data": {
+            "type": "EMPTY_CONTAINER_RETURN",
+            "checksum": "c414cd0e204de974f73753c7e28d7638e7b3691bb8b1a2bab6b25bb7fed7ce77",
+            "shipmentId": "ef684543-4a20-45ce-9f79-61048191c1dc"
+          },
+          "metadata": {},
+          "created_at": "2026-08-05T07:42:56.552Z"
+        },
+        {
+          "id": "537d9400-4d99-40c7-959b-0372d5e47ba7",
+          "actor_type": "USER",
+          "actor_user_id": "45159154-6797-4265-92d7-d13a2228b45c",
+          "organization_id": "39a689d7-571f-4025-ba33-404f473b7e4a",
+          "action": "document.shipment_uploaded",
+          "object_type": "DOCUMENT",
+          "object_id": "7f793789-6f68-440f-9fcc-f838a014de50",
+          "source_message_id": "ef97b88a-a240-43fe-9cf7-f261e81bbefc",
+          "before_data": null,
+          "after_data": {
+            "type": "POD",
+            "checksum": "c414cd0e204de974f73753c7e28d7638e7b3691bb8b1a2bab6b25bb7fed7ce77",
+            "shipmentId": "ef684543-4a20-45ce-9f79-61048191c1dc"
+          },
+          "metadata": {},
+          "created_at": "2026-08-05T07:42:56.531Z"
+        },
+        {
+          "id": "665adc42-8903-444d-bfb7-f8d789197f99",
+          "actor_type": "USER",
+          "actor_user_id": "45159154-6797-4265-92d7-d13a2228b45c",
+          "organization_id": "39a689d7-571f-4025-ba33-404f473b7e4a",
+          "action": "action.consumed",
+          "object_type": "MESSAGE_ACTION",
+          "object_id": "af46f508-d195-4eef-aa94-cc1050d17ddf",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": null,
+          "metadata": {
+            "actionType": "CONFIRM_SHIPMENT_STATUS",
+            "clientIdempotencyKey": "d3c60b52-4c72-48ec-97ca-6fbaf8f94cac"
+          },
+          "created_at": "2026-08-05T07:42:56.497Z"
+        },
+        {
+          "id": "1649f22c-8efb-455d-9de1-ab68c6f4b052",
+          "actor_type": "USER",
+          "actor_user_id": "45159154-6797-4265-92d7-d13a2228b45c",
+          "organization_id": "39a689d7-571f-4025-ba33-404f473b7e4a",
+          "action": "shipment.status_changed",
+          "object_type": "SHIPMENT",
+          "object_id": "ef684543-4a20-45ce-9f79-61048191c1dc",
+          "source_message_id": null,
+          "before_data": {
+            "status": "EMPTY_RETURN_PENDING"
+          },
+          "after_data": {
+            "status": "EMPTY_RETURNED"
+          },
+          "metadata": {
+            "orderType": "IMPORT_DRAYAGE"
+          },
+          "created_at": "2026-08-05T07:42:56.497Z"
+        },
+        {
+          "id": "8c4af989-d1da-4bff-aeaa-61ee327697ab",
+          "actor_type": "USER",
+          "actor_user_id": "45159154-6797-4265-92d7-d13a2228b45c",
+          "organization_id": "39a689d7-571f-4025-ba33-404f473b7e4a",
+          "action": "shipment.status_changed",
+          "object_type": "SHIPMENT",
+          "object_id": "ef684543-4a20-45ce-9f79-61048191c1dc",
+          "source_message_id": null,
+          "before_data": {
+            "status": "DELIVERED"
+          },
+          "after_data": {
+            "status": "EMPTY_RETURN_PENDING"
+          },
+          "metadata": {
+            "orderType": "IMPORT_DRAYAGE"
+          },
+          "created_at": "2026-08-05T07:42:56.198Z"
+        },
+        {
+          "id": "8a041e5e-af9a-4d8a-8d7a-9e0f73427b25",
+          "actor_type": "USER",
+          "actor_user_id": "45159154-6797-4265-92d7-d13a2228b45c",
+          "organization_id": "39a689d7-571f-4025-ba33-404f473b7e4a",
+          "action": "action.consumed",
+          "object_type": "MESSAGE_ACTION",
+          "object_id": "a0b1bede-9e39-48f5-a369-3df64ac9b904",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": null,
+          "metadata": {
+            "actionType": "CONFIRM_SHIPMENT_STATUS",
+            "clientIdempotencyKey": "c05c91b6-a4f4-48dd-a86b-9d57b85bd328"
+          },
+          "created_at": "2026-08-05T07:42:56.198Z"
+        },
+        {
+          "id": "ce7f3db6-bff2-48e1-97db-f5bc72128515",
+          "actor_type": "USER",
+          "actor_user_id": "45159154-6797-4265-92d7-d13a2228b45c",
+          "organization_id": "39a689d7-571f-4025-ba33-404f473b7e4a",
+          "action": "action.consumed",
+          "object_type": "MESSAGE_ACTION",
+          "object_id": "280e337d-d80d-4d0b-b005-cafb962fc231",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": null,
+          "metadata": {
+            "actionType": "CONFIRM_SHIPMENT_STATUS",
+            "clientIdempotencyKey": "14dc1a0c-ea96-45bf-8dc9-d78908941260"
+          },
+          "created_at": "2026-08-05T07:42:55.627Z"
+        },
+        {
+          "id": "49471c9e-958f-4236-b461-dacd2d2c1cff",
+          "actor_type": "USER",
+          "actor_user_id": "45159154-6797-4265-92d7-d13a2228b45c",
+          "organization_id": "39a689d7-571f-4025-ba33-404f473b7e4a",
+          "action": "shipment.status_changed",
+          "object_type": "SHIPMENT",
+          "object_id": "ef684543-4a20-45ce-9f79-61048191c1dc",
+          "source_message_id": null,
+          "before_data": {
+            "status": "IN_TRANSIT_TO_DELIVERY"
+          },
+          "after_data": {
+            "status": "DELIVERED"
+          },
+          "metadata": {
+            "orderType": "IMPORT_DRAYAGE"
+          },
+          "created_at": "2026-08-05T07:42:55.627Z"
+        },
+        {
+          "id": "dc804f66-0bbe-4acc-b3ba-b225a66a8eb7",
+          "actor_type": "USER",
+          "actor_user_id": "45159154-6797-4265-92d7-d13a2228b45c",
+          "organization_id": "39a689d7-571f-4025-ba33-404f473b7e4a",
+          "action": "action.consumed",
+          "object_type": "MESSAGE_ACTION",
+          "object_id": "ec40e168-4615-4d24-9cec-0100f923b8b1",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": null,
+          "metadata": {
+            "actionType": "CONFIRM_SHIPMENT_STATUS",
+            "clientIdempotencyKey": "82ee8613-7f97-4ed7-ae58-87c01a50f873"
+          },
+          "created_at": "2026-08-05T07:42:55.072Z"
+        },
+        {
+          "id": "ae83ae60-bea8-4fab-adce-bbc337ebe561",
+          "actor_type": "USER",
+          "actor_user_id": "45159154-6797-4265-92d7-d13a2228b45c",
+          "organization_id": "39a689d7-571f-4025-ba33-404f473b7e4a",
+          "action": "shipment.status_changed",
+          "object_type": "SHIPMENT",
+          "object_id": "ef684543-4a20-45ce-9f79-61048191c1dc",
+          "source_message_id": null,
+          "before_data": {
+            "status": "CONTAINER_PICKED_UP"
+          },
+          "after_data": {
+            "status": "IN_TRANSIT_TO_DELIVERY"
+          },
+          "metadata": {
+            "orderType": "IMPORT_DRAYAGE"
+          },
+          "created_at": "2026-08-05T07:42:55.072Z"
+        },
+        {
+          "id": "7cb71f99-c05d-49c4-aa68-5c9e87e141b2",
+          "actor_type": "USER",
+          "actor_user_id": "45159154-6797-4265-92d7-d13a2228b45c",
+          "organization_id": "39a689d7-571f-4025-ba33-404f473b7e4a",
+          "action": "action.consumed",
+          "object_type": "MESSAGE_ACTION",
+          "object_id": "f130d743-c2b4-4901-a4e7-c2cd7ca63632",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": null,
+          "metadata": {
+            "actionType": "CONFIRM_SHIPMENT_STATUS",
+            "clientIdempotencyKey": "7c0d8696-4733-4324-a115-939829cd7ec2"
+          },
+          "created_at": "2026-08-05T07:42:54.513Z"
+        },
+        {
+          "id": "ed008f2b-579b-4f86-bfea-23414b5f9f35",
+          "actor_type": "USER",
+          "actor_user_id": "45159154-6797-4265-92d7-d13a2228b45c",
+          "organization_id": "39a689d7-571f-4025-ba33-404f473b7e4a",
+          "action": "shipment.status_changed",
+          "object_type": "SHIPMENT",
+          "object_id": "ef684543-4a20-45ce-9f79-61048191c1dc",
+          "source_message_id": null,
+          "before_data": {
+            "status": "WAITING_PORT_RELEASE"
+          },
+          "after_data": {
+            "status": "CONTAINER_PICKED_UP"
+          },
+          "metadata": {
+            "orderType": "IMPORT_DRAYAGE"
+          },
+          "created_at": "2026-08-05T07:42:54.513Z"
+        },
+        {
+          "id": "534c2cec-77ad-4f95-a5cf-fe268cc77421",
+          "actor_type": "USER",
+          "actor_user_id": "45159154-6797-4265-92d7-d13a2228b45c",
+          "organization_id": "39a689d7-571f-4025-ba33-404f473b7e4a",
+          "action": "shipment.created",
+          "object_type": "SHIPMENT",
+          "object_id": "ef684543-4a20-45ce-9f79-61048191c1dc",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": {
+            "status": "WAITING_PORT_RELEASE",
+            "orderType": "IMPORT_DRAYAGE"
+          },
+          "metadata": {},
+          "created_at": "2026-08-05T07:42:53.953Z"
+        },
+        {
+          "id": "184b771c-2b95-41b0-87ff-f89fe86b602f",
+          "actor_type": "USER",
+          "actor_user_id": "45159154-6797-4265-92d7-d13a2228b45c",
+          "organization_id": "39a689d7-571f-4025-ba33-404f473b7e4a",
+          "action": "action.consumed",
+          "object_type": "MESSAGE_ACTION",
+          "object_id": "5a8ec424-933d-4638-90f3-9b17f3f864eb",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": null,
+          "metadata": {
+            "actionType": "ACCEPT_BOOKING",
+            "clientIdempotencyKey": "e5f084a6-5b2b-4c91-83ae-f99e371497dd"
+          },
+          "created_at": "2026-08-05T07:42:53.953Z"
+        },
+        {
+          "id": "b6c31b71-7172-465a-ae11-546b8fffa2af",
+          "actor_type": "USER",
+          "actor_user_id": "45159154-6797-4265-92d7-d13a2228b45c",
+          "organization_id": "39a689d7-571f-4025-ba33-404f473b7e4a",
+          "action": "booking.accepted",
+          "object_type": "BOOKING",
+          "object_id": "ec48a751-288c-49b1-b6d1-051b954e9762",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": null,
+          "metadata": {},
+          "created_at": "2026-08-05T07:42:53.953Z"
+        },
+        {
+          "id": "cfa7af76-bf10-45f6-a20c-118b36461fa6",
+          "actor_type": "OPERATOR",
+          "actor_user_id": "7afde7d3-7ba0-4ed8-bce6-25bac0e39b8d",
+          "organization_id": "6d608ab1-7edb-466f-8567-b75893a231fc",
+          "action": "booking.offered",
+          "object_type": "BOOKING",
+          "object_id": "ec48a751-288c-49b1-b6d1-051b954e9762",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": {
+            "amount": "220.00",
+            "currency": "USD",
+            "orderVersion": 1
+          },
+          "metadata": {},
+          "created_at": "2026-08-05T07:42:53.666Z"
+        },
+        {
+          "id": "edc35235-b390-4411-98da-02c17314ccda",
+          "actor_type": "OPERATOR",
+          "actor_user_id": "7afde7d3-7ba0-4ed8-bce6-25bac0e39b8d",
+          "organization_id": "6d608ab1-7edb-466f-8567-b75893a231fc",
+          "action": "quote.accepted",
+          "object_type": "QUOTE",
+          "object_id": "c8f071d7-48ae-4a92-a757-8158fc1b4223",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": null,
+          "metadata": {
+            "bookingId": "ec48a751-288c-49b1-b6d1-051b954e9762"
+          },
+          "created_at": "2026-08-05T07:42:53.666Z"
+        },
+        {
+          "id": "413a4231-b949-4103-a303-d158ecd6e032",
+          "actor_type": "USER",
+          "actor_user_id": "45159154-6797-4265-92d7-d13a2228b45c",
+          "organization_id": "39a689d7-571f-4025-ba33-404f473b7e4a",
+          "action": "action.consumed",
+          "object_type": "MESSAGE_ACTION",
+          "object_id": "b47c4da4-7877-40e1-8609-73407407cb9e",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": null,
+          "metadata": {
+            "actionType": "CONFIRM_QUOTE",
+            "clientIdempotencyKey": "b7a7ed10-045f-43fa-9f7d-5472d919b68b"
+          },
+          "created_at": "2026-08-05T07:42:53.610Z"
+        },
+        {
+          "id": "f57f593d-0444-4363-9b5a-7cdb70d7cff1",
+          "actor_type": "USER",
+          "actor_user_id": "45159154-6797-4265-92d7-d13a2228b45c",
+          "organization_id": "39a689d7-571f-4025-ba33-404f473b7e4a",
+          "action": "quote.submitted",
+          "object_type": "QUOTE",
+          "object_id": "c8f071d7-48ae-4a92-a757-8158fc1b4223",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": {
+            "amount": "220.00",
+            "currency": "USD",
+            "rfqRevision": 1,
+            "orderVersion": 1
+          },
+          "metadata": {
+            "viaActionId": "b47c4da4-7877-40e1-8609-73407407cb9e"
+          },
+          "created_at": "2026-08-05T07:42:53.610Z"
+        },
+        {
+          "id": "e1507966-53e1-4d34-8952-3efde1e44bc9",
+          "actor_type": "USER",
+          "actor_user_id": "45159154-6797-4265-92d7-d13a2228b45c",
+          "organization_id": "39a689d7-571f-4025-ba33-404f473b7e4a",
+          "action": "quote.drafted",
+          "object_type": "QUOTE",
+          "object_id": "c8f071d7-48ae-4a92-a757-8158fc1b4223",
+          "source_message_id": "cef75ac4-02d6-4343-bcf3-f5f1fcb21abb",
+          "before_data": null,
+          "after_data": {
+            "amount": "220.00",
+            "currency": "USD",
+            "rfqRevision": 1,
+            "currencySource": "DEFAULTED"
+          },
+          "metadata": {},
+          "created_at": "2026-08-05T07:42:53.078Z"
+        },
+        {
+          "id": "ad73ef30-1752-4639-bf62-38fd5390719a",
+          "actor_type": "USER",
+          "actor_user_id": "45159154-6797-4265-92d7-d13a2228b45c",
+          "organization_id": "39a689d7-571f-4025-ba33-404f473b7e4a",
+          "action": "action.consumed",
+          "object_type": "MESSAGE_ACTION",
+          "object_id": "6160deff-2b3d-4220-a4e7-4c3ebeec0d2b",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": null,
+          "metadata": {
+            "actionType": "MODIFY_QUOTE",
+            "clientIdempotencyKey": "5b067059-8162-4dae-bcc7-660495747ea3"
+          },
+          "created_at": "2026-08-05T07:42:53.054Z"
+        },
+        {
+          "id": "279872c2-0f40-4582-b7d4-ffa10931ea76",
+          "actor_type": "OPERATOR",
+          "actor_user_id": "7afde7d3-7ba0-4ed8-bce6-25bac0e39b8d",
+          "organization_id": "6d608ab1-7edb-466f-8567-b75893a231fc",
+          "action": "rfq.sent",
+          "object_type": "RFQ_RECIPIENT",
+          "object_id": "a063e7a4-5120-4bbe-8e5e-b8c0fc0626a8",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": {
+            "revision": 1,
+            "fleetOrganizationId": "39a689d7-571f-4025-ba33-404f473b7e4a"
+          },
+          "metadata": {},
+          "created_at": "2026-08-05T07:42:52.403Z"
+        },
+        {
+          "id": "b038a08f-4e08-42d1-9f57-2625450cf6a9",
+          "actor_type": "OPERATOR",
+          "actor_user_id": "7afde7d3-7ba0-4ed8-bce6-25bac0e39b8d",
+          "organization_id": "6d608ab1-7edb-466f-8567-b75893a231fc",
+          "action": "rfq.created",
+          "object_type": "RFQ",
+          "object_id": "ea42cb71-a386-4d01-8f4e-fbae5cf0a6c9",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": {
+            "revision": 1
+          },
+          "metadata": {},
+          "created_at": "2026-08-05T07:42:52.403Z"
+        },
+        {
+          "id": "614e7d41-4297-4e12-811d-11c1061f4bbd",
+          "actor_type": "OPERATOR",
+          "actor_user_id": "7afde7d3-7ba0-4ed8-bce6-25bac0e39b8d",
+          "organization_id": "6d608ab1-7edb-466f-8567-b75893a231fc",
+          "action": "rfq.recipients_confirmed",
+          "object_type": "ORDER",
+          "object_id": "de2a9942-47d0-4ece-8271-100497822e56",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": null,
+          "metadata": {
+            "mode": "EXPLICIT",
+            "selectedFleetOrganizationIds": [
+              "39a689d7-571f-4025-ba33-404f473b7e4a"
+            ],
+            "defaultEligibleFleetOrganizationIds": [
+              "39a689d7-571f-4025-ba33-404f473b7e4a",
+              "0c972c08-702b-4bfa-ab8a-a3b27fc95f26",
+              "b191891a-4a79-42f9-9ccc-bfafce42c4a9",
+              "af990f73-feca-419a-9fa5-a30353740851",
+              "14d426d4-d541-4c5d-892f-dc6904b4bd91",
+              "7700056f-3791-4632-a361-ea7e27c98402",
+              "578c34ec-1771-4e2a-a506-b3bf2a99b9bd",
+              "075f8862-4ac8-469c-944d-bb9400df17e3",
+              "77aeeeb5-fef7-4fc4-9e08-55fdadd6bda6",
+              "1db9b9fa-3bac-4190-ac9c-bf226a8bb442"
+            ]
+          },
+          "created_at": "2026-08-05T07:42:52.401Z"
+        },
+        {
+          "id": "60f2060c-14cf-4ebd-9f86-4072609047b1",
+          "actor_type": "OPERATOR",
+          "actor_user_id": "7afde7d3-7ba0-4ed8-bce6-25bac0e39b8d",
+          "organization_id": "6d608ab1-7edb-466f-8567-b75893a231fc",
+          "action": "order.created",
+          "object_type": "ORDER",
+          "object_id": "de2a9942-47d0-4ece-8271-100497822e56",
+          "source_message_id": null,
+          "before_data": null,
+          "after_data": {
+            "publicReference": "M-DEMO-1001"
+          },
+          "metadata": {},
+          "created_at": "2026-08-05T07:42:52.384Z"
+        }
+      ]
+    },
+    "pendingProfiles": {
+      "profiles": [
+        {
+          "id": "02146151-1835-4f60-996b-265eab2924e7",
+          "fleet_profile_id": "80672881-9917-4db5-890e-d973e1b68822",
+          "version": 2,
+          "status": "PENDING_REVIEW",
+          "fleet_name": "Fleet 4 (申请更新)",
+          "supports_hazardous": true,
+          "supports_reefer": true,
+          "contact_name": "联系人 4",
+          "contact_phone": "+65 6000 0004",
+          "notes": "新增马来西亚跨境能力，申请审核。",
+          "submitted_by_user_id": "0f4674da-3ac7-40fc-bd97-2d48a0a9902a",
+          "reviewed_by_user_id": null,
+          "submitted_at": "2026-08-05T07:43:00.234Z",
+          "reviewed_at": null,
+          "review_note": null,
+          "created_at": "2026-08-05T07:43:00.234Z",
+          "fleet_organization_id": "14d426d4-d541-4c5d-892f-dc6904b4bd91",
+          "organization_name": "Fleet 4",
+          "operating_countries": [
+            "MY",
+            "SG"
+          ],
+          "previous_fleet_name": "Fleet 4",
+          "previous_supports_hazardous": true,
+          "previous_supports_reefer": false,
+          "previous_contact_name": "联系人 4",
+          "previous_contact_phone": "+65 6000 0004",
+          "previous_notes": "本地演示档案"
+        }
+      ],
+      "fleets": [
+        {
+          "id": "39a689d7-571f-4025-ba33-404f473b7e4a",
+          "name": "Fleet 1",
+          "status": "ACTIVE",
+          "accepting_orders": true
+        },
+        {
+          "id": "0c972c08-702b-4bfa-ab8a-a3b27fc95f26",
+          "name": "Fleet 10",
+          "status": "ACTIVE",
+          "accepting_orders": true
+        },
+        {
+          "id": "b191891a-4a79-42f9-9ccc-bfafce42c4a9",
+          "name": "Fleet 2",
+          "status": "ACTIVE",
+          "accepting_orders": true
+        },
+        {
+          "id": "af990f73-feca-419a-9fa5-a30353740851",
+          "name": "Fleet 3",
+          "status": "ACTIVE",
+          "accepting_orders": true
+        },
+        {
+          "id": "14d426d4-d541-4c5d-892f-dc6904b4bd91",
+          "name": "Fleet 4",
+          "status": "ACTIVE",
+          "accepting_orders": true
+        },
+        {
+          "id": "7700056f-3791-4632-a361-ea7e27c98402",
+          "name": "Fleet 5",
+          "status": "ACTIVE",
+          "accepting_orders": true
+        },
+        {
+          "id": "578c34ec-1771-4e2a-a506-b3bf2a99b9bd",
+          "name": "Fleet 6",
+          "status": "ACTIVE",
+          "accepting_orders": true
+        },
+        {
+          "id": "075f8862-4ac8-469c-944d-bb9400df17e3",
+          "name": "Fleet 7",
+          "status": "ACTIVE",
+          "accepting_orders": true
+        },
+        {
+          "id": "77aeeeb5-fef7-4fc4-9e08-55fdadd6bda6",
+          "name": "Fleet 8",
+          "status": "ACTIVE",
+          "accepting_orders": true
+        },
+        {
+          "id": "1db9b9fa-3bac-4190-ac9c-bf226a8bb442",
+          "name": "Fleet 9",
+          "status": "ACTIVE",
+          "accepting_orders": true
+        }
+      ]
+    },
+    "order4Candidates": [
+      {
+        "id": "39a689d7-571f-4025-ba33-404f473b7e4a",
+        "name": "Fleet 1",
+        "eligible": false,
+        "reasons": [
+          "不具备冷藏箱能力"
+        ]
+      },
+      {
+        "id": "0c972c08-702b-4bfa-ab8a-a3b27fc95f26",
+        "name": "Fleet 10",
+        "eligible": false,
+        "reasons": [
+          "不具备冷藏箱能力"
+        ]
+      },
+      {
+        "id": "b191891a-4a79-42f9-9ccc-bfafce42c4a9",
+        "name": "Fleet 2",
+        "eligible": false,
+        "reasons": [
+          "不具备冷藏箱能力"
+        ]
+      },
+      {
+        "id": "af990f73-feca-419a-9fa5-a30353740851",
+        "name": "Fleet 3",
+        "eligible": true,
+        "reasons": []
+      },
+      {
+        "id": "14d426d4-d541-4c5d-892f-dc6904b4bd91",
+        "name": "Fleet 4",
+        "eligible": false,
+        "reasons": [
+          "不具备冷藏箱能力"
+        ]
+      },
+      {
+        "id": "7700056f-3791-4632-a361-ea7e27c98402",
+        "name": "Fleet 5",
+        "eligible": false,
+        "reasons": [
+          "不具备冷藏箱能力"
+        ]
+      },
+      {
+        "id": "578c34ec-1771-4e2a-a506-b3bf2a99b9bd",
+        "name": "Fleet 6",
+        "eligible": true,
+        "reasons": []
+      },
+      {
+        "id": "075f8862-4ac8-469c-944d-bb9400df17e3",
+        "name": "Fleet 7",
+        "eligible": false,
+        "reasons": [
+          "不具备冷藏箱能力"
+        ]
+      },
+      {
+        "id": "77aeeeb5-fef7-4fc4-9e08-55fdadd6bda6",
+        "name": "Fleet 8",
+        "eligible": false,
+        "reasons": [
+          "不具备冷藏箱能力"
+        ]
+      },
+      {
+        "id": "1db9b9fa-3bac-4190-ac9c-bf226a8bb442",
+        "name": "Fleet 9",
+        "eligible": true,
+        "reasons": []
+      }
+    ],
+    "order4Id": "7983fac3-c10d-42ac-a4fd-59229f9581a1"
+  },
+  "fleets": {
+    "fleet1": {
+      "session": {
+        "user": {
+          "id": "45159154-6797-4265-92d7-d13a2228b45c",
+          "username": "fleet1",
+          "email": null,
+          "displayName": "车队 1"
+        },
+        "organization": {
+          "id": "39a689d7-571f-4025-ba33-404f473b7e4a",
+          "name": "Fleet 1",
+          "type": "FLEET"
+        },
+        "role": "FLEET_ADMIN"
+      },
+      "tasks": [
+        {
+          "order_id": "de2a9942-47d0-4ece-8271-100497822e56",
+          "order_reference": "M-DEMO-1001",
+          "order_status": "COMPLETED",
+          "pickup_location_text": "PSA Pasir Panjang Terminal",
+          "delivery_location_text": "Jurong Industrial Estate",
+          "pickup_at": "2026-08-06T01:00:00.000Z",
+          "order_type": "IMPORT_DRAYAGE",
+          "service_country": "SG",
+          "container_type": "40HQ",
+          "container_quantity": 2,
+          "requested_start_at": "2026-08-06T01:00:00.000Z",
+          "requested_complete_at": null,
+          "rfq_id": "ea42cb71-a386-4d01-8f4e-fbae5cf0a6c9",
+          "rfq_reference": "RFQ-DEMO-1001",
+          "rfq_revision": 1,
+          "rfq_recipient_id": "a063e7a4-5120-4bbe-8e5e-b8c0fc0626a8",
+          "recipient_status": "QUOTED",
+          "quote_id": "c8f071d7-48ae-4a92-a757-8158fc1b4223",
+          "quote_status": "ACCEPTED",
+          "amount": "220.00",
+          "currency": "USD",
+          "booking_id": "ec48a751-288c-49b1-b6d1-051b954e9762",
+          "booking_reference": "B-DEMO-1001",
+          "booking_status": "COMPLETED",
+          "shipment_id": "ef684543-4a20-45ce-9f79-61048191c1dc",
+          "shipment_status": "COMPLETED",
+          "anchor_message_id": "8b6fe7ce-793d-48f8-8808-422c374ba313",
+          "last_message_text": "任务 B-DEMO-1001 的文件已审核通过，订单已完成。",
+          "last_message_at": "2026-08-05T07:42:56.565Z",
+          "open_exception_count": 0,
+          "unread_count": 4
+        }
+      ],
+      "messagesByTask": {
+        "a063e7a4-5120-4bbe-8e5e-b8c0fc0626a8": [
+          {
+            "id": "f26d11fe-61e0-4499-bbeb-a61551dd080c",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "BUSINESS_CARD",
+            "text_content": "新询价 RFQ-DEMO-1001\n\n订单类型：提港（SG）\n路线：PSA Pasir Panjang Terminal → Jurong Industrial Estate\n箱型/数量：40HQ × 2\n计划开始：2026-08-06 09:00\n特殊要求：无\n提重箱码头：PSA Pasir Panjang Terminal\n送货地点：Jurong Industrial Estate\n还空箱地点：Tuas Empty Container Depot\n\n请选择下一步。\n\n1. 我要报价\n2. 无法承运\n3. 稍后回复\n\n请回复 1 / 2 / 3 选择。",
+            "structured_content": {
+              "kind": "RFQ",
+              "order": {
+                "cargo": null,
+                "pickup": "PSA Pasir Panjang Terminal",
+                "reefer": false,
+                "special": "无",
+                "delivery": "Jurong Industrial Estate",
+                "pickupAt": "2026-08-06 09:00",
+                "unNumber": null,
+                "container": "40HQ × 2",
+                "hazardous": false,
+                "orderType": "IMPORT_DRAYAGE",
+                "deliveryAt": null,
+                "sealNumber": null,
+                "emptyPickup": null,
+                "emptyReturn": "Tuas Empty Container Depot",
+                "billOfLading": null,
+                "shippingLine": null,
+                "vesselVoyage": null,
+                "grossWeightKg": null,
+                "pickupContact": null,
+                "originTerminal": null,
+                "serviceCountry": "SG",
+                "containerNumber": null,
+                "deliveryContact": null,
+                "loadingLocation": null,
+                "bookingReference": null,
+                "deliveryLocation": "Jurong Industrial Estate",
+                "reeferTemperatureC": null,
+                "destinationTerminal": "PSA Pasir Panjang Terminal",
+                "emptyReturnDeadline": null
+              },
+              "choices": [
+                {
+                  "label": "我要报价",
+                  "number": 1
+                },
+                {
+                  "label": "无法承运",
+                  "number": 2
+                },
+                {
+                  "label": "稍后回复",
+                  "number": 3
+                }
+              ],
+              "revision": 1,
+              "reference": "RFQ-DEMO-1001",
+              "interaction": "NUMBERED_CHOICES",
+              "orderVersion": 1
+            },
+            "reply_to_message_id": null,
+            "created_at": "2026-08-05T07:42:52.403Z",
+            "external_message_id": null,
+            "actions": [
+              {
+                "id": "9a67aebb-02b8-4913-ac29-4c81a4f4dd72",
+                "actionType": "DECLINE_RFQ",
+                "label": "无法承运",
+                "status": "INVALIDATED"
+              },
+              {
+                "id": "6160deff-2b3d-4220-a4e7-4c3ebeec0d2b",
+                "actionType": "MODIFY_QUOTE",
+                "label": "我要报价",
+                "status": "CONSUMED"
+              },
+              {
+                "id": "cd986632-64e6-4139-a0af-9b38539278f2",
+                "actionType": "ACK_REPLY_LATER",
+                "label": "稍后回复",
+                "status": "INVALIDATED"
+              }
+            ]
+          },
+          {
+            "id": "fde27cb7-9543-430f-aeff-08e1f83ac181",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "TEXT",
+            "text_content": "请回复报价金额，例如：220全包 或 USD 220。",
+            "structured_content": {},
+            "reply_to_message_id": null,
+            "created_at": "2026-08-05T07:42:53.054Z",
+            "external_message_id": null,
+            "actions": []
+          },
+          {
+            "id": "cef75ac4-02d6-4343-bcf3-f5f1fcb21abb",
+            "direction": "INBOUND",
+            "sender_type": "FLEET_USER",
+            "message_type": "TEXT",
+            "text_content": "220全包",
+            "structured_content": {},
+            "reply_to_message_id": "f26d11fe-61e0-4499-bbeb-a61551dd080c",
+            "created_at": "2026-08-05T07:42:53.068Z",
+            "external_message_id": "314784bd-4f98-4307-961a-19b426eaebb4",
+            "actions": []
+          },
+          {
+            "id": "eb402abf-f400-4138-9a40-f48e7037804f",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "BUSINESS_CARD",
+            "text_content": "我理解的报价如下：\n\n询价：RFQ-DEMO-1001\n价格：USD 220.00（未注明币种，默认美元）\n条件：全包\n适用提货时间：2026-08-06 09:00\n\n请确认提交，或告诉我需要修改的内容。\n\n1. 确认提交\n2. 修改报价\n3. 取消报价\n\n请回复 1 / 2 / 3 选择。",
+            "structured_content": {
+              "kind": "QUOTE_CONFIRMATION",
+              "money": "USD 220.00",
+              "terms": null,
+              "choices": [
+                {
+                  "label": "确认提交",
+                  "number": 1
+                },
+                {
+                  "label": "修改报价",
+                  "number": 2
+                },
+                {
+                  "label": "取消报价",
+                  "number": 3
+                }
+              ],
+              "isAllIn": true,
+              "currency": "USD",
+              "pickupAt": "2026-08-06 09:00",
+              "defaulted": true,
+              "reference": "RFQ-DEMO-1001",
+              "interaction": "NUMBERED_CHOICES",
+              "currencySource": "DEFAULTED"
+            },
+            "reply_to_message_id": "cef75ac4-02d6-4343-bcf3-f5f1fcb21abb",
+            "created_at": "2026-08-05T07:42:53.078Z",
+            "external_message_id": null,
+            "actions": [
+              {
+                "id": "c6bc2a3a-4e65-4d60-a2a7-a0a39cb74d24",
+                "actionType": "MODIFY_QUOTE",
+                "label": "修改报价",
+                "status": "INVALIDATED"
+              },
+              {
+                "id": "1c58bb8f-9cdd-4b37-bc05-bd73b835f57e",
+                "actionType": "CANCEL_QUOTE_DRAFT",
+                "label": "取消报价",
+                "status": "INVALIDATED"
+              },
+              {
+                "id": "b47c4da4-7877-40e1-8609-73407407cb9e",
+                "actionType": "CONFIRM_QUOTE",
+                "label": "确认提交",
+                "status": "CONSUMED"
+              }
+            ]
+          },
+          {
+            "id": "293c7d32-23eb-4865-b082-6f57f4ecd219",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "SYSTEM_NOTICE",
+            "text_content": "报价已提交：USD 220.00（RFQ-DEMO-1001）。我们会在选定后通知你。",
+            "structured_content": {},
+            "reply_to_message_id": null,
+            "created_at": "2026-08-05T07:42:53.610Z",
+            "external_message_id": null,
+            "actions": []
+          },
+          {
+            "id": "eb2421b6-b453-44da-99ee-236c4c91584a",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "BUSINESS_CARD",
+            "text_content": "任务确认 B-DEMO-1001\n\n路线：PSA Pasir Panjang Terminal → Jurong Industrial Estate\n箱型/数量：40HQ × 2\n提货时间：2026-08-06 09:00\n确认价格：USD 220.00\n\n你的报价已被选中，请确认接受任务。\n\n1. 接受任务\n2. 无法承运\n3. 联系运营\n\n请回复 1 / 2 / 3 选择。",
+            "structured_content": {
+              "kind": "BOOKING_OFFER",
+              "money": "USD 220.00",
+              "order": {
+                "pickup": "PSA Pasir Panjang Terminal",
+                "special": "无",
+                "delivery": "Jurong Industrial Estate",
+                "pickupAt": "2026-08-06 09:00",
+                "container": "40HQ × 2",
+                "deliveryAt": null
+              },
+              "choices": [
+                {
+                  "label": "接受任务",
+                  "number": 1
+                },
+                {
+                  "label": "无法承运",
+                  "number": 2
+                },
+                {
+                  "label": "联系运营",
+                  "number": 3
+                }
+              ],
+              "reference": "B-DEMO-1001",
+              "interaction": "NUMBERED_CHOICES"
+            },
+            "reply_to_message_id": null,
+            "created_at": "2026-08-05T07:42:53.666Z",
+            "external_message_id": null,
+            "actions": [
+              {
+                "id": "f0ca9aa8-58bc-4f49-b196-0731fc7ca90e",
+                "actionType": "DECLINE_BOOKING",
+                "label": "无法承运",
+                "status": "INVALIDATED"
+              },
+              {
+                "id": "5a8ec424-933d-4638-90f3-9b17f3f864eb",
+                "actionType": "ACCEPT_BOOKING",
+                "label": "接受任务",
+                "status": "CONSUMED"
+              },
+              {
+                "id": "48ce7d14-a1b0-4071-9745-6138b9a18190",
+                "actionType": "REQUEST_HUMAN",
+                "label": "联系运营",
+                "status": "INVALIDATED"
+              }
+            ]
+          },
+          {
+            "id": "b072603f-c7b5-4a6a-a64f-5f7f84690577",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "SYSTEM_NOTICE",
+            "text_content": "已确认接受任务 B-DEMO-1001。下一步是从码头提取全部重箱；完成后请回复“全部重箱已提取”。",
+            "structured_content": {},
+            "reply_to_message_id": null,
+            "created_at": "2026-08-05T07:42:53.953Z",
+            "external_message_id": null,
+            "actions": []
+          },
+          {
+            "id": "c04870ae-b1ea-4a51-a23e-dd4f2518981d",
+            "direction": "INBOUND",
+            "sender_type": "FLEET_USER",
+            "message_type": "TEXT",
+            "text_content": "全部重箱已提取",
+            "structured_content": {},
+            "reply_to_message_id": "b072603f-c7b5-4a6a-a64f-5f7f84690577",
+            "created_at": "2026-08-05T07:42:53.975Z",
+            "external_message_id": "9505bc54-cd9f-4f8d-90cc-9ef3b2b24de2",
+            "actions": []
+          },
+          {
+            "id": "5e0a03d2-429c-466a-803f-e582b62944dd",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "ACTION_PROMPT",
+            "text_content": "确认将整票状态更新为「全部重箱已从码头提取」？（B-DEMO-1001）\n\n1. 确认更新\n2. 状态不符，联系运营\n\n请回复 1 / 2 选择。",
+            "structured_content": {
+              "to": "全部重箱已从码头提取",
+              "from": "等待码头放箱",
+              "kind": "SHIPMENT_STATUS_CONFIRMATION",
+              "choices": [
+                {
+                  "label": "确认更新",
+                  "number": 1
+                },
+                {
+                  "label": "状态不符，联系运营",
+                  "number": 2
+                }
+              ],
+              "reference": "B-DEMO-1001",
+              "interaction": "NUMBERED_CHOICES"
+            },
+            "reply_to_message_id": "c04870ae-b1ea-4a51-a23e-dd4f2518981d",
+            "created_at": "2026-08-05T07:42:53.984Z",
+            "external_message_id": null,
+            "actions": [
+              {
+                "id": "f130d743-c2b4-4901-a4e7-c2cd7ca63632",
+                "actionType": "CONFIRM_SHIPMENT_STATUS",
+                "label": "确认更新",
+                "status": "CONSUMED"
+              },
+              {
+                "id": "7272b38d-e474-47eb-82a0-cf70309d79ee",
+                "actionType": "REQUEST_HUMAN",
+                "label": "状态不符，联系运营",
+                "status": "INVALIDATED"
+              }
+            ]
+          },
+          {
+            "id": "ba3b0dcc-8a55-4144-bc4d-e805caa3e8ba",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "SYSTEM_NOTICE",
+            "text_content": "已更新整票运输状态：全部重箱已从码头提取（B-DEMO-1001）。",
+            "structured_content": {},
+            "reply_to_message_id": null,
+            "created_at": "2026-08-05T07:42:54.513Z",
+            "external_message_id": null,
+            "actions": []
+          },
+          {
+            "id": "7e84ae49-46bb-4ef0-b301-35e527ee30c6",
+            "direction": "INBOUND",
+            "sender_type": "FLEET_USER",
+            "message_type": "TEXT",
+            "text_content": "前往送货地点",
+            "structured_content": {},
+            "reply_to_message_id": "ba3b0dcc-8a55-4144-bc4d-e805caa3e8ba",
+            "created_at": "2026-08-05T07:42:54.533Z",
+            "external_message_id": "0efc259c-0bed-43fb-a708-69e99c45f3b2",
+            "actions": []
+          },
+          {
+            "id": "7e0f0c41-3038-42f2-8326-73a21b24182a",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "ACTION_PROMPT",
+            "text_content": "确认将整票状态更新为「前往送货地点」？（B-DEMO-1001）\n\n1. 确认更新\n2. 状态不符，联系运营\n\n请回复 1 / 2 选择。",
+            "structured_content": {
+              "to": "前往送货地点",
+              "from": "全部重箱已从码头提取",
+              "kind": "SHIPMENT_STATUS_CONFIRMATION",
+              "choices": [
+                {
+                  "label": "确认更新",
+                  "number": 1
+                },
+                {
+                  "label": "状态不符，联系运营",
+                  "number": 2
+                }
+              ],
+              "reference": "B-DEMO-1001",
+              "interaction": "NUMBERED_CHOICES"
+            },
+            "reply_to_message_id": "7e84ae49-46bb-4ef0-b301-35e527ee30c6",
+            "created_at": "2026-08-05T07:42:54.539Z",
+            "external_message_id": null,
+            "actions": [
+              {
+                "id": "ec40e168-4615-4d24-9cec-0100f923b8b1",
+                "actionType": "CONFIRM_SHIPMENT_STATUS",
+                "label": "确认更新",
+                "status": "CONSUMED"
+              },
+              {
+                "id": "e831921b-b4fd-45d2-9a1a-1553966855df",
+                "actionType": "REQUEST_HUMAN",
+                "label": "状态不符，联系运营",
+                "status": "INVALIDATED"
+              }
+            ]
+          },
+          {
+            "id": "ff74f5cb-571a-4c9e-98e5-4740193141b9",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "SYSTEM_NOTICE",
+            "text_content": "已更新整票运输状态：前往送货地点（B-DEMO-1001）。",
+            "structured_content": {},
+            "reply_to_message_id": null,
+            "created_at": "2026-08-05T07:42:55.072Z",
+            "external_message_id": null,
+            "actions": []
+          },
+          {
+            "id": "599066a2-0c98-48b2-9fe7-9fc4d0c88b32",
+            "direction": "INBOUND",
+            "sender_type": "FLEET_USER",
+            "message_type": "TEXT",
+            "text_content": "送到了",
+            "structured_content": {},
+            "reply_to_message_id": "ff74f5cb-571a-4c9e-98e5-4740193141b9",
+            "created_at": "2026-08-05T07:42:55.089Z",
+            "external_message_id": "d9b70783-0bbf-43b4-8a06-39d4383e5c0a",
+            "actions": []
+          },
+          {
+            "id": "1be5fc3b-111b-4795-8662-ed70f95ab7d0",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "ACTION_PROMPT",
+            "text_content": "确认将整票状态更新为「全部集装箱已送达」？（B-DEMO-1001）\n\n1. 确认更新\n2. 状态不符，联系运营\n\n请回复 1 / 2 选择。",
+            "structured_content": {
+              "to": "全部集装箱已送达",
+              "from": "前往送货地点",
+              "kind": "SHIPMENT_STATUS_CONFIRMATION",
+              "choices": [
+                {
+                  "label": "确认更新",
+                  "number": 1
+                },
+                {
+                  "label": "状态不符，联系运营",
+                  "number": 2
+                }
+              ],
+              "reference": "B-DEMO-1001",
+              "interaction": "NUMBERED_CHOICES"
+            },
+            "reply_to_message_id": "599066a2-0c98-48b2-9fe7-9fc4d0c88b32",
+            "created_at": "2026-08-05T07:42:55.096Z",
+            "external_message_id": null,
+            "actions": [
+              {
+                "id": "280e337d-d80d-4d0b-b005-cafb962fc231",
+                "actionType": "CONFIRM_SHIPMENT_STATUS",
+                "label": "确认更新",
+                "status": "CONSUMED"
+              },
+              {
+                "id": "9445478b-600d-43c9-bc05-4eb33ae9dd7a",
+                "actionType": "REQUEST_HUMAN",
+                "label": "状态不符，联系运营",
+                "status": "INVALIDATED"
+              }
+            ]
+          },
+          {
+            "id": "59821d75-5873-4eb0-8edb-610041a31c6e",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "SYSTEM_NOTICE",
+            "text_content": "已更新整票运输状态：全部集装箱已送达（B-DEMO-1001）。",
+            "structured_content": {},
+            "reply_to_message_id": null,
+            "created_at": "2026-08-05T07:42:55.627Z",
+            "external_message_id": null,
+            "actions": []
+          },
+          {
+            "id": "81286e6b-7fea-483a-8ea5-e403703b8deb",
+            "direction": "INBOUND",
+            "sender_type": "FLEET_USER",
+            "message_type": "TEXT",
+            "text_content": "等待归还空箱",
+            "structured_content": {},
+            "reply_to_message_id": "59821d75-5873-4eb0-8edb-610041a31c6e",
+            "created_at": "2026-08-05T07:42:55.659Z",
+            "external_message_id": "17583825-fb9b-4b64-aa8a-342a167bc91a",
+            "actions": []
+          },
+          {
+            "id": "aa1e11b0-315d-417b-aafc-5a2bd92f2f12",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "ACTION_PROMPT",
+            "text_content": "确认将整票状态更新为「等待归还空箱」？（B-DEMO-1001）\n\n1. 确认更新\n2. 状态不符，联系运营\n\n请回复 1 / 2 选择。",
+            "structured_content": {
+              "to": "等待归还空箱",
+              "from": "全部集装箱已送达",
+              "kind": "SHIPMENT_STATUS_CONFIRMATION",
+              "choices": [
+                {
+                  "label": "确认更新",
+                  "number": 1
+                },
+                {
+                  "label": "状态不符，联系运营",
+                  "number": 2
+                }
+              ],
+              "reference": "B-DEMO-1001",
+              "interaction": "NUMBERED_CHOICES"
+            },
+            "reply_to_message_id": "81286e6b-7fea-483a-8ea5-e403703b8deb",
+            "created_at": "2026-08-05T07:42:55.663Z",
+            "external_message_id": null,
+            "actions": [
+              {
+                "id": "a0b1bede-9e39-48f5-a369-3df64ac9b904",
+                "actionType": "CONFIRM_SHIPMENT_STATUS",
+                "label": "确认更新",
+                "status": "CONSUMED"
+              },
+              {
+                "id": "ed28a482-a02a-4e57-8a8d-4b52496cfeb4",
+                "actionType": "REQUEST_HUMAN",
+                "label": "状态不符，联系运营",
+                "status": "INVALIDATED"
+              }
+            ]
+          },
+          {
+            "id": "15ffc743-f886-4af2-af74-2990b6657cde",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "SYSTEM_NOTICE",
+            "text_content": "已更新整票运输状态：等待归还空箱（B-DEMO-1001）。",
+            "structured_content": {},
+            "reply_to_message_id": null,
+            "created_at": "2026-08-05T07:42:56.198Z",
+            "external_message_id": null,
+            "actions": []
+          },
+          {
+            "id": "b4321303-ef29-4a33-b727-33b4afaf8548",
+            "direction": "INBOUND",
+            "sender_type": "FLEET_USER",
+            "message_type": "TEXT",
+            "text_content": "全部空箱已还",
+            "structured_content": {},
+            "reply_to_message_id": "15ffc743-f886-4af2-af74-2990b6657cde",
+            "created_at": "2026-08-05T07:42:56.220Z",
+            "external_message_id": "4db45688-32dc-4194-ac1c-23c0ebec8900",
+            "actions": []
+          },
+          {
+            "id": "02289573-70b2-45bd-847f-e32df686984f",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "ACTION_PROMPT",
+            "text_content": "确认将整票状态更新为「全部空箱已归还」？（B-DEMO-1001）\n\n1. 确认更新\n2. 状态不符，联系运营\n\n请回复 1 / 2 选择。",
+            "structured_content": {
+              "to": "全部空箱已归还",
+              "from": "等待归还空箱",
+              "kind": "SHIPMENT_STATUS_CONFIRMATION",
+              "choices": [
+                {
+                  "label": "确认更新",
+                  "number": 1
+                },
+                {
+                  "label": "状态不符，联系运营",
+                  "number": 2
+                }
+              ],
+              "reference": "B-DEMO-1001",
+              "interaction": "NUMBERED_CHOICES"
+            },
+            "reply_to_message_id": "b4321303-ef29-4a33-b727-33b4afaf8548",
+            "created_at": "2026-08-05T07:42:56.226Z",
+            "external_message_id": null,
+            "actions": [
+              {
+                "id": "5bbfef7c-9b6e-437b-9bc0-e22c62bf1e11",
+                "actionType": "REQUEST_HUMAN",
+                "label": "状态不符，联系运营",
+                "status": "INVALIDATED"
+              },
+              {
+                "id": "af46f508-d195-4eef-aa94-cc1050d17ddf",
+                "actionType": "CONFIRM_SHIPMENT_STATUS",
+                "label": "确认更新",
+                "status": "CONSUMED"
+              }
+            ]
+          },
+          {
+            "id": "f8afcce1-a7b7-40ba-9b31-0b05bc86fa18",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "SYSTEM_NOTICE",
+            "text_content": "已更新整票运输状态：全部空箱已归还（B-DEMO-1001）。",
+            "structured_content": {},
+            "reply_to_message_id": null,
+            "created_at": "2026-08-05T07:42:56.497Z",
+            "external_message_id": null,
+            "actions": []
+          },
+          {
+            "id": "ef97b88a-a240-43fe-9cf7-f261e81bbefc",
+            "direction": "INBOUND",
+            "sender_type": "FLEET_USER",
+            "message_type": "FILE",
+            "text_content": "POD: pod.png",
+            "structured_content": {},
+            "reply_to_message_id": null,
+            "created_at": "2026-08-05T07:42:56.531Z",
+            "external_message_id": "937c706b-7b66-4176-b7dc-68eff9b943e1",
+            "actions": []
+          },
+          {
+            "id": "89469acf-9624-413e-999e-731e97beb973",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "SYSTEM_NOTICE",
+            "text_content": "送货签收证明（POD）已收到。还需要上传：空箱归还证明。",
+            "structured_content": {},
+            "reply_to_message_id": null,
+            "created_at": "2026-08-05T07:42:56.531Z",
+            "external_message_id": null,
+            "actions": []
+          },
+          {
+            "id": "4f006a91-29c7-40c2-8d0d-8c8b9bffd695",
+            "direction": "INBOUND",
+            "sender_type": "FLEET_USER",
+            "message_type": "FILE",
+            "text_content": "POD: empty-return.png",
+            "structured_content": {},
+            "reply_to_message_id": null,
+            "created_at": "2026-08-05T07:42:56.552Z",
+            "external_message_id": "878fe43b-15eb-43ff-ab8d-2f5067056922",
+            "actions": []
+          },
+          {
+            "id": "2285aa46-b69b-4e64-b7a2-9020c762fb86",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "SYSTEM_NOTICE",
+            "text_content": "空箱归还证明已收到。必需文件已齐全，正在等待运营审核。",
+            "structured_content": {},
+            "reply_to_message_id": null,
+            "created_at": "2026-08-05T07:42:56.552Z",
+            "external_message_id": null,
+            "actions": []
+          },
+          {
+            "id": "8b6fe7ce-793d-48f8-8808-422c374ba313",
+            "direction": "OUTBOUND",
+            "sender_type": "OPERATOR",
+            "message_type": "SYSTEM_NOTICE",
+            "text_content": "任务 B-DEMO-1001 的文件已审核通过，订单已完成。",
+            "structured_content": {},
+            "reply_to_message_id": null,
+            "created_at": "2026-08-05T07:42:56.565Z",
+            "external_message_id": null,
+            "actions": []
+          }
+        ]
+      },
+      "profile": {
+        "profile": {
+          "id": "8d684316-2603-465e-8f68-5961d410df3b",
+          "accepting_orders": true,
+          "approved": {
+            "id": "cabbe13a-d5e6-4a03-87a9-cf32106d8076",
+            "version": 1,
+            "fleet_name": "Fleet 1",
+            "supports_hazardous": false,
+            "supports_reefer": false,
+            "contact_name": "联系人 1",
+            "contact_phone": "+65 6000 0001",
+            "notes": "本地演示档案",
+            "operating_countries": [
+              "SG"
+            ],
+            "status": "APPROVED"
+          },
+          "pending": null,
+          "latest_rejected": null
+        }
+      }
+    },
+    "fleet2": {
+      "session": {
+        "user": {
+          "id": "441dbfd3-2160-4d30-97c1-97178df8b925",
+          "username": "fleet2",
+          "email": null,
+          "displayName": "车队 2"
+        },
+        "organization": {
+          "id": "b191891a-4a79-42f9-9ccc-bfafce42c4a9",
+          "name": "Fleet 2",
+          "type": "FLEET"
+        },
+        "role": "FLEET_ADMIN"
+      },
+      "tasks": [
+        {
+          "order_id": "734cd406-8cc2-4245-8fc8-0fe1be5c0b4a",
+          "order_reference": "M-DEMO-1002",
+          "order_status": "IN_PROGRESS",
+          "pickup_location_text": "Tuas Empty Container Depot",
+          "delivery_location_text": "PSA Tuas Terminal",
+          "pickup_at": "2026-08-07T01:00:00.000Z",
+          "order_type": "EXPORT_DRAYAGE",
+          "service_country": "SG",
+          "container_type": "20GP",
+          "container_quantity": 1,
+          "requested_start_at": "2026-08-07T01:00:00.000Z",
+          "requested_complete_at": null,
+          "rfq_id": "ccbcfc72-f1d3-4df5-a08d-19220a3b7fc4",
+          "rfq_reference": "RFQ-DEMO-1002",
+          "rfq_revision": 1,
+          "rfq_recipient_id": "9ac1dce2-cb96-4909-8216-f8e74ac26195",
+          "recipient_status": "QUOTED",
+          "quote_id": "146b75b7-7595-4b27-8b73-250b775fd0b4",
+          "quote_status": "ACCEPTED",
+          "amount": "150.00",
+          "currency": "USD",
+          "booking_id": "6d90d687-85c9-4806-a42a-c1e76b347e32",
+          "booking_reference": "B-DEMO-1002",
+          "booking_status": "IN_PROGRESS",
+          "shipment_id": "cebf4d5d-ae2e-4524-9b96-3d8c1d72ac12",
+          "shipment_status": "AT_LOADING_LOCATION",
+          "anchor_message_id": "b157bd8f-1e05-46c1-851f-c606b1917d92",
+          "last_message_text": "已更新整票运输状态：已到达装货地点（B-DEMO-1002）。",
+          "last_message_at": "2026-08-05T07:42:59.198Z",
+          "open_exception_count": 0,
+          "unread_count": 1
+        }
+      ],
+      "messagesByTask": {
+        "9ac1dce2-cb96-4909-8216-f8e74ac26195": [
+          {
+            "id": "a0719d78-95da-4be0-aa4f-b9755e13598a",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "BUSINESS_CARD",
+            "text_content": "新询价 RFQ-DEMO-1002\n\n订单类型：送港（SG）\n路线：Tuas Empty Container Depot → PSA Tuas Terminal\n箱型/数量：20GP × 1\n计划开始：2026-08-07 09:00\n特殊要求：无\n空箱提取：Tuas Empty Container Depot · 2026-08-07 09:00\n装货地点：Tuas Warehouse Hub\n还重箱码头：PSA Tuas Terminal\n\n请选择下一步。\n\n1. 我要报价\n2. 无法承运\n3. 稍后回复\n\n请回复 1 / 2 / 3 选择。",
+            "structured_content": {
+              "kind": "RFQ",
+              "order": {
+                "cargo": null,
+                "pickup": "Tuas Empty Container Depot",
+                "reefer": false,
+                "special": "无",
+                "delivery": "PSA Tuas Terminal",
+                "pickupAt": "2026-08-07 09:00",
+                "unNumber": null,
+                "container": "20GP × 1",
+                "hazardous": false,
+                "orderType": "EXPORT_DRAYAGE",
+                "deliveryAt": null,
+                "sealNumber": null,
+                "emptyPickup": "Tuas Empty Container Depot",
+                "emptyReturn": null,
+                "billOfLading": null,
+                "shippingLine": null,
+                "vesselVoyage": null,
+                "grossWeightKg": null,
+                "pickupContact": null,
+                "originTerminal": "PSA Tuas Terminal",
+                "serviceCountry": "SG",
+                "containerNumber": null,
+                "deliveryContact": null,
+                "loadingLocation": "Tuas Warehouse Hub",
+                "bookingReference": null,
+                "deliveryLocation": null,
+                "reeferTemperatureC": null,
+                "destinationTerminal": null,
+                "emptyReturnDeadline": null
+              },
+              "choices": [
+                {
+                  "label": "我要报价",
+                  "number": 1
+                },
+                {
+                  "label": "无法承运",
+                  "number": 2
+                },
+                {
+                  "label": "稍后回复",
+                  "number": 3
+                }
+              ],
+              "revision": 1,
+              "reference": "RFQ-DEMO-1002",
+              "interaction": "NUMBERED_CHOICES",
+              "orderVersion": 1
+            },
+            "reply_to_message_id": null,
+            "created_at": "2026-08-05T07:42:56.592Z",
+            "external_message_id": null,
+            "actions": [
+              {
+                "id": "525250c0-79a9-4e47-801c-352203e50be4",
+                "actionType": "MODIFY_QUOTE",
+                "label": "我要报价",
+                "status": "CONSUMED"
+              },
+              {
+                "id": "410bdbe5-e81c-4d2b-9019-932b3c9bcbb3",
+                "actionType": "DECLINE_RFQ",
+                "label": "无法承运",
+                "status": "INVALIDATED"
+              },
+              {
+                "id": "7d198f41-7f4f-4a5c-b5c7-0b805d4ff468",
+                "actionType": "ACK_REPLY_LATER",
+                "label": "稍后回复",
+                "status": "INVALIDATED"
+              }
+            ]
+          },
+          {
+            "id": "fc27338a-c583-48de-ad8d-bde1dfa11269",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "TEXT",
+            "text_content": "请回复报价金额，例如：220全包 或 USD 220。",
+            "structured_content": {},
+            "reply_to_message_id": null,
+            "created_at": "2026-08-05T07:42:56.972Z",
+            "external_message_id": null,
+            "actions": []
+          },
+          {
+            "id": "949ca55a-09c5-4f74-b59b-34ed6b8804d4",
+            "direction": "INBOUND",
+            "sender_type": "FLEET_USER",
+            "message_type": "TEXT",
+            "text_content": "150全包",
+            "structured_content": {},
+            "reply_to_message_id": "a0719d78-95da-4be0-aa4f-b9755e13598a",
+            "created_at": "2026-08-05T07:42:56.982Z",
+            "external_message_id": "8be2d614-1f6c-478b-8ad0-72580b39602a",
+            "actions": []
+          },
+          {
+            "id": "51fce1b2-7dfc-4036-9247-03798f94aac7",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "BUSINESS_CARD",
+            "text_content": "我理解的报价如下：\n\n询价：RFQ-DEMO-1002\n价格：USD 150.00（未注明币种，默认美元）\n条件：全包\n适用提货时间：2026-08-07 09:00\n\n请确认提交，或告诉我需要修改的内容。\n\n1. 确认提交\n2. 修改报价\n3. 取消报价\n\n请回复 1 / 2 / 3 选择。",
+            "structured_content": {
+              "kind": "QUOTE_CONFIRMATION",
+              "money": "USD 150.00",
+              "terms": null,
+              "choices": [
+                {
+                  "label": "确认提交",
+                  "number": 1
+                },
+                {
+                  "label": "修改报价",
+                  "number": 2
+                },
+                {
+                  "label": "取消报价",
+                  "number": 3
+                }
+              ],
+              "isAllIn": true,
+              "currency": "USD",
+              "pickupAt": "2026-08-07 09:00",
+              "defaulted": true,
+              "reference": "RFQ-DEMO-1002",
+              "interaction": "NUMBERED_CHOICES",
+              "currencySource": "DEFAULTED"
+            },
+            "reply_to_message_id": "949ca55a-09c5-4f74-b59b-34ed6b8804d4",
+            "created_at": "2026-08-05T07:42:56.987Z",
+            "external_message_id": null,
+            "actions": [
+              {
+                "id": "10c0a2d2-0c81-423c-bdc2-7b69786f174f",
+                "actionType": "CANCEL_QUOTE_DRAFT",
+                "label": "取消报价",
+                "status": "INVALIDATED"
+              },
+              {
+                "id": "5039230a-119e-422e-9d28-81a7133663f3",
+                "actionType": "MODIFY_QUOTE",
+                "label": "修改报价",
+                "status": "INVALIDATED"
+              },
+              {
+                "id": "84020c7b-72c6-4903-808f-dcc1cf388fb1",
+                "actionType": "CONFIRM_QUOTE",
+                "label": "确认提交",
+                "status": "CONSUMED"
+              }
+            ]
+          },
+          {
+            "id": "b1f20e67-785a-4998-b24f-e2753d485a53",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "SYSTEM_NOTICE",
+            "text_content": "报价已提交：USD 150.00（RFQ-DEMO-1002）。我们会在选定后通知你。",
+            "structured_content": {},
+            "reply_to_message_id": null,
+            "created_at": "2026-08-05T07:42:57.521Z",
+            "external_message_id": null,
+            "actions": []
+          },
+          {
+            "id": "9fdab9fc-fd6d-47ea-a6d6-4da4f9fc5039",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "BUSINESS_CARD",
+            "text_content": "任务确认 B-DEMO-1002\n\n路线：Tuas Empty Container Depot → PSA Tuas Terminal\n箱型/数量：20GP × 1\n提货时间：2026-08-07 09:00\n确认价格：USD 150.00\n\n你的报价已被选中，请确认接受任务。\n\n1. 接受任务\n2. 无法承运\n3. 联系运营\n\n请回复 1 / 2 / 3 选择。",
+            "structured_content": {
+              "kind": "BOOKING_OFFER",
+              "money": "USD 150.00",
+              "order": {
+                "pickup": "Tuas Empty Container Depot",
+                "special": "无",
+                "delivery": "PSA Tuas Terminal",
+                "pickupAt": "2026-08-07 09:00",
+                "container": "20GP × 1",
+                "deliveryAt": null
+              },
+              "choices": [
+                {
+                  "label": "接受任务",
+                  "number": 1
+                },
+                {
+                  "label": "无法承运",
+                  "number": 2
+                },
+                {
+                  "label": "联系运营",
+                  "number": 3
+                }
+              ],
+              "reference": "B-DEMO-1002",
+              "interaction": "NUMBERED_CHOICES"
+            },
+            "reply_to_message_id": null,
+            "created_at": "2026-08-05T07:42:57.544Z",
+            "external_message_id": null,
+            "actions": [
+              {
+                "id": "137f2436-5a2a-4541-88f3-64218018e5dc",
+                "actionType": "ACCEPT_BOOKING",
+                "label": "接受任务",
+                "status": "CONSUMED"
+              },
+              {
+                "id": "12d3d404-78f6-4234-bc70-c7debe667cf6",
+                "actionType": "DECLINE_BOOKING",
+                "label": "无法承运",
+                "status": "INVALIDATED"
+              },
+              {
+                "id": "535600f3-0b2a-4f27-a185-5cc84ce8e079",
+                "actionType": "REQUEST_HUMAN",
+                "label": "联系运营",
+                "status": "INVALIDATED"
+              }
+            ]
+          },
+          {
+            "id": "7885b146-b552-407c-8aeb-7e1e7497c5fc",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "SYSTEM_NOTICE",
+            "text_content": "已确认接受任务 B-DEMO-1002。下一步是提取全部空箱；完成后请回复“全部空箱已提取”。",
+            "structured_content": {},
+            "reply_to_message_id": null,
+            "created_at": "2026-08-05T07:42:58.086Z",
+            "external_message_id": null,
+            "actions": []
+          },
+          {
+            "id": "4604a034-a7fb-4f89-a97a-beec8864dc51",
+            "direction": "INBOUND",
+            "sender_type": "FLEET_USER",
+            "message_type": "TEXT",
+            "text_content": "全部空箱已提取",
+            "structured_content": {},
+            "reply_to_message_id": "7885b146-b552-407c-8aeb-7e1e7497c5fc",
+            "created_at": "2026-08-05T07:42:58.116Z",
+            "external_message_id": "1e7e89e7-3b47-450c-9a14-6d0adceb9326",
+            "actions": []
+          },
+          {
+            "id": "5875e97e-61c8-4ccc-9afd-ef69eb2d4719",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "ACTION_PROMPT",
+            "text_content": "确认将整票状态更新为「全部空箱已提取」？（B-DEMO-1002）\n\n1. 确认更新\n2. 状态不符，联系运营\n\n请回复 1 / 2 选择。",
+            "structured_content": {
+              "to": "全部空箱已提取",
+              "from": "等待提取空箱",
+              "kind": "SHIPMENT_STATUS_CONFIRMATION",
+              "choices": [
+                {
+                  "label": "确认更新",
+                  "number": 1
+                },
+                {
+                  "label": "状态不符，联系运营",
+                  "number": 2
+                }
+              ],
+              "reference": "B-DEMO-1002",
+              "interaction": "NUMBERED_CHOICES"
+            },
+            "reply_to_message_id": "4604a034-a7fb-4f89-a97a-beec8864dc51",
+            "created_at": "2026-08-05T07:42:58.123Z",
+            "external_message_id": null,
+            "actions": [
+              {
+                "id": "2a5cbbaf-d1de-4db8-8869-fafe4a0ba565",
+                "actionType": "CONFIRM_SHIPMENT_STATUS",
+                "label": "确认更新",
+                "status": "CONSUMED"
+              },
+              {
+                "id": "29a65805-e05c-4395-81ed-040952549c0f",
+                "actionType": "REQUEST_HUMAN",
+                "label": "状态不符，联系运营",
+                "status": "INVALIDATED"
+              }
+            ]
+          },
+          {
+            "id": "4d26f3dd-8558-42d5-b313-e5a7aec5ebb7",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "SYSTEM_NOTICE",
+            "text_content": "已更新整票运输状态：全部空箱已提取（B-DEMO-1002）。",
+            "structured_content": {},
+            "reply_to_message_id": null,
+            "created_at": "2026-08-05T07:42:58.650Z",
+            "external_message_id": null,
+            "actions": []
+          },
+          {
+            "id": "96270185-49c9-4527-99a8-4c528e762e98",
+            "direction": "INBOUND",
+            "sender_type": "FLEET_USER",
+            "message_type": "TEXT",
+            "text_content": "已到达装货地点",
+            "structured_content": {},
+            "reply_to_message_id": "4d26f3dd-8558-42d5-b313-e5a7aec5ebb7",
+            "created_at": "2026-08-05T07:42:58.665Z",
+            "external_message_id": "ef0321f2-0cab-479f-a87b-f80c179b17a8",
+            "actions": []
+          },
+          {
+            "id": "33cfe7c2-2428-4b91-a73e-1f024e971032",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "ACTION_PROMPT",
+            "text_content": "确认将整票状态更新为「已到达装货地点」？（B-DEMO-1002）\n\n1. 确认更新\n2. 状态不符，联系运营\n\n请回复 1 / 2 选择。",
+            "structured_content": {
+              "to": "已到达装货地点",
+              "from": "全部空箱已提取",
+              "kind": "SHIPMENT_STATUS_CONFIRMATION",
+              "choices": [
+                {
+                  "label": "确认更新",
+                  "number": 1
+                },
+                {
+                  "label": "状态不符，联系运营",
+                  "number": 2
+                }
+              ],
+              "reference": "B-DEMO-1002",
+              "interaction": "NUMBERED_CHOICES"
+            },
+            "reply_to_message_id": "96270185-49c9-4527-99a8-4c528e762e98",
+            "created_at": "2026-08-05T07:42:58.670Z",
+            "external_message_id": null,
+            "actions": [
+              {
+                "id": "2def9c90-3fc2-4d7c-8e24-4256e5f1abb0",
+                "actionType": "REQUEST_HUMAN",
+                "label": "状态不符，联系运营",
+                "status": "INVALIDATED"
+              },
+              {
+                "id": "fedcffc1-c945-41f2-9235-bf86c358f347",
+                "actionType": "CONFIRM_SHIPMENT_STATUS",
+                "label": "确认更新",
+                "status": "CONSUMED"
+              }
+            ]
+          },
+          {
+            "id": "b157bd8f-1e05-46c1-851f-c606b1917d92",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "SYSTEM_NOTICE",
+            "text_content": "已更新整票运输状态：已到达装货地点（B-DEMO-1002）。",
+            "structured_content": {},
+            "reply_to_message_id": null,
+            "created_at": "2026-08-05T07:42:59.198Z",
+            "external_message_id": null,
+            "actions": []
+          }
+        ]
+      },
+      "profile": {
+        "profile": {
+          "id": "485d5774-7fad-43be-a73e-795ab27e1e26",
+          "accepting_orders": true,
+          "approved": {
+            "id": "e5e18c16-54fb-4638-a2bb-e4ce03c1f945",
+            "version": 1,
+            "fleet_name": "Fleet 2",
+            "supports_hazardous": true,
+            "supports_reefer": false,
+            "contact_name": "联系人 2",
+            "contact_phone": "+65 6000 0002",
+            "notes": "本地演示档案",
+            "operating_countries": [
+              "SG"
+            ],
+            "status": "APPROVED"
+          },
+          "pending": null,
+          "latest_rejected": null
+        }
+      }
+    },
+    "fleet3": {
+      "session": {
+        "user": {
+          "id": "d1423bbf-4967-48e7-a869-06ee27a4386e",
+          "username": "fleet3",
+          "email": null,
+          "displayName": "车队 3"
+        },
+        "organization": {
+          "id": "af990f73-feca-419a-9fa5-a30353740851",
+          "name": "Fleet 3",
+          "type": "FLEET"
+        },
+        "role": "FLEET_ADMIN"
+      },
+      "tasks": [
+        {
+          "order_id": "9a213e9f-610f-4a15-9c55-8122ad262766",
+          "order_reference": "M-DEMO-1003",
+          "order_status": "QUOTING",
+          "pickup_location_text": "PSA Brani Terminal",
+          "delivery_location_text": "Woodlands Logistics Park",
+          "pickup_at": "2026-08-08T02:00:00.000Z",
+          "order_type": "IMPORT_DRAYAGE",
+          "service_country": "SG",
+          "container_type": "40HQ",
+          "container_quantity": 3,
+          "requested_start_at": "2026-08-08T02:00:00.000Z",
+          "requested_complete_at": null,
+          "rfq_id": "52e99cf8-d1e9-4ae2-aef3-9908dc6c1379",
+          "rfq_reference": "RFQ-DEMO-1003",
+          "rfq_revision": 1,
+          "rfq_recipient_id": "22990fcf-cf66-4083-946b-b08b25c80fcf",
+          "recipient_status": "QUOTED",
+          "quote_id": "f3891cbe-34cc-4d5d-97b2-379193e1accc",
+          "quote_status": "SUBMITTED",
+          "amount": "310.00",
+          "currency": "USD",
+          "booking_id": null,
+          "booking_reference": null,
+          "booking_status": null,
+          "shipment_id": null,
+          "shipment_status": null,
+          "anchor_message_id": "8c1e8b29-2436-4332-bd44-074626e356ad",
+          "last_message_text": "报价已提交：USD 310.00（RFQ-DEMO-1003）。我们会在选定后通知你。",
+          "last_message_at": "2026-08-05T07:43:00.127Z",
+          "open_exception_count": 0,
+          "unread_count": 1
+        }
+      ],
+      "messagesByTask": {
+        "22990fcf-cf66-4083-946b-b08b25c80fcf": [
+          {
+            "id": "ef3c3d4d-8568-4198-a2a6-8f15f3ca9d79",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "BUSINESS_CARD",
+            "text_content": "新询价 RFQ-DEMO-1003\n\n订单类型：提港（SG）\n路线：PSA Brani Terminal → Woodlands Logistics Park\n箱型/数量：40HQ × 3\n计划开始：2026-08-08 10:00\n特殊要求：无\n提重箱码头：PSA Brani Terminal\n送货地点：Woodlands Logistics Park\n还空箱地点：Tuas Empty Container Depot\n\n请选择下一步。\n\n1. 我要报价\n2. 无法承运\n3. 稍后回复\n\n请回复 1 / 2 / 3 选择。",
+            "structured_content": {
+              "kind": "RFQ",
+              "order": {
+                "cargo": null,
+                "pickup": "PSA Brani Terminal",
+                "reefer": false,
+                "special": "无",
+                "delivery": "Woodlands Logistics Park",
+                "pickupAt": "2026-08-08 10:00",
+                "unNumber": null,
+                "container": "40HQ × 3",
+                "hazardous": false,
+                "orderType": "IMPORT_DRAYAGE",
+                "deliveryAt": null,
+                "sealNumber": null,
+                "emptyPickup": null,
+                "emptyReturn": "Tuas Empty Container Depot",
+                "billOfLading": null,
+                "shippingLine": null,
+                "vesselVoyage": null,
+                "grossWeightKg": null,
+                "pickupContact": null,
+                "originTerminal": null,
+                "serviceCountry": "SG",
+                "containerNumber": null,
+                "deliveryContact": null,
+                "loadingLocation": null,
+                "bookingReference": null,
+                "deliveryLocation": "Woodlands Logistics Park",
+                "reeferTemperatureC": null,
+                "destinationTerminal": "PSA Brani Terminal",
+                "emptyReturnDeadline": null
+              },
+              "choices": [
+                {
+                  "label": "我要报价",
+                  "number": 1
+                },
+                {
+                  "label": "无法承运",
+                  "number": 2
+                },
+                {
+                  "label": "稍后回复",
+                  "number": 3
+                }
+              ],
+              "revision": 1,
+              "reference": "RFQ-DEMO-1003",
+              "interaction": "NUMBERED_CHOICES",
+              "orderVersion": 1
+            },
+            "reply_to_message_id": null,
+            "created_at": "2026-08-05T07:42:59.215Z",
+            "external_message_id": null,
+            "actions": [
+              {
+                "id": "0d461d6c-6b34-489e-91aa-3b3410598918",
+                "actionType": "ACK_REPLY_LATER",
+                "label": "稍后回复",
+                "status": "INVALIDATED"
+              },
+              {
+                "id": "64e9d055-6858-4ac1-b8e7-c80492a9aa0b",
+                "actionType": "MODIFY_QUOTE",
+                "label": "我要报价",
+                "status": "CONSUMED"
+              },
+              {
+                "id": "984ea795-20c4-4d05-b3bb-2e7d3cca705e",
+                "actionType": "DECLINE_RFQ",
+                "label": "无法承运",
+                "status": "INVALIDATED"
+              }
+            ]
+          },
+          {
+            "id": "b257b874-c7b1-4e8e-8d13-e2109c43b9ef",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "TEXT",
+            "text_content": "请回复报价金额，例如：220全包 或 USD 220。",
+            "structured_content": {},
+            "reply_to_message_id": null,
+            "created_at": "2026-08-05T07:42:59.582Z",
+            "external_message_id": null,
+            "actions": []
+          },
+          {
+            "id": "a17483d8-cb32-45fc-89ee-fcea18e0cd52",
+            "direction": "INBOUND",
+            "sender_type": "FLEET_USER",
+            "message_type": "TEXT",
+            "text_content": "310全包",
+            "structured_content": {},
+            "reply_to_message_id": "ef3c3d4d-8568-4198-a2a6-8f15f3ca9d79",
+            "created_at": "2026-08-05T07:42:59.590Z",
+            "external_message_id": "e302de20-5d1d-45db-a570-635d4932bce4",
+            "actions": []
+          },
+          {
+            "id": "ffbce7e3-84b7-48d4-8d4e-857f3af3d4c5",
+            "direction": "OUTBOUND",
+            "sender_type": "MERCURY_AI",
+            "message_type": "BUSINESS_CARD",
+            "text_content": "我理解的报价如下：\n\n询价：RFQ-DEMO-1003\n价格：USD 310.00（未注明币种，默认美元）\n条件：全包\n适用提货时间：2026-08-08 10:00\n\n请确认提交，或告诉我需要修改的内容。\n\n1. 确认提交\n2. 修改报价\n3. 取消报价\n\n请回复 1 / 2 / 3 选择。",
+            "structured_content": {
+              "kind": "QUOTE_CONFIRMATION",
+              "money": "USD 310.00",
+              "terms": null,
+              "choices": [
+                {
+                  "label": "确认提交",
+                  "number": 1
+                },
+                {
+                  "label": "修改报价",
+                  "number": 2
+                },
+                {
+                  "label": "取消报价",
+                  "number": 3
+                }
+              ],
+              "isAllIn": true,
+              "currency": "USD",
+              "pickupAt": "2026-08-08 10:00",
+              "defaulted": true,
+              "reference": "RFQ-DEMO-1003",
+              "interaction": "NUMBERED_CHOICES",
+              "currencySource": "DEFAULTED"
+            },
+            "reply_to_message_id": "a17483d8-cb32-45fc-89ee-fcea18e0cd52",
+            "created_at": "2026-08-05T07:42:59.594Z",
+            "external_message_id": null,
+            "actions": [
+              {
+                "id": "160c65d2-20d3-41c1-a7be-f1c4ba2a0dfd",
+                "actionType": "CONFIRM_QUOTE",
+                "label": "确认提交",
+                "status": "CONSUMED"
+              },
+              {
+                "id": "754f7269-86f1-4fb9-810b-03421b26876f",
+                "actionType": "MODIFY_QUOTE",
+                "label": "修改报价",
+                "status": "INVALIDATED"
+              },
+              {
+                "id": "26f90849-476a-4db3-b2da-d4e21eeb0607",
+                "actionType": "CANCEL_QUOTE_DRAFT",
+                "label": "取消报价",
+                "status": "INVALIDATED"
+              }
+            ]
+          }
+        ]
+      },
+      "profile": {
+        "profile": {
+          "id": "47f08481-354d-4d69-8fa8-ef5e013c6758",
+          "accepting_orders": true,
+          "approved": {
+            "id": "38d81695-8233-46b6-bdba-d6321bbdc99d",
+            "version": 1,
+            "fleet_name": "Fleet 3",
+            "supports_hazardous": false,
+            "supports_reefer": true,
+            "contact_name": "联系人 3",
+            "contact_phone": "+65 6000 0003",
+            "notes": "本地演示档案",
+            "operating_countries": [
+              "SG"
+            ],
+            "status": "APPROVED"
+          },
+          "pending": null,
+          "latest_rejected": null
+        }
+      }
+    },
+    "fleet4": {
+      "session": {
+        "user": {
+          "id": "0f4674da-3ac7-40fc-bd97-2d48a0a9902a",
+          "username": "fleet4",
+          "email": null,
+          "displayName": "车队 4"
+        },
+        "organization": {
+          "id": "14d426d4-d541-4c5d-892f-dc6904b4bd91",
+          "name": "Fleet 4",
+          "type": "FLEET"
+        },
+        "role": "FLEET_ADMIN"
+      },
+      "tasks": [],
+      "messagesByTask": {},
+      "profile": {
+        "profile": {
+          "id": "80672881-9917-4db5-890e-d973e1b68822",
+          "accepting_orders": true,
+          "approved": {
+            "id": "81352cfc-3554-4f20-b41b-35b97cc732be",
+            "version": 1,
+            "fleet_name": "Fleet 4",
+            "supports_hazardous": true,
+            "supports_reefer": false,
+            "contact_name": "联系人 4",
+            "contact_phone": "+65 6000 0004",
+            "notes": "本地演示档案",
+            "operating_countries": [
+              "SG"
+            ],
+            "status": "APPROVED"
+          },
+          "pending": {
+            "id": "02146151-1835-4f60-996b-265eab2924e7",
+            "version": 2,
+            "fleet_name": "Fleet 4 (申请更新)",
+            "supports_hazardous": true,
+            "supports_reefer": true,
+            "contact_name": "联系人 4",
+            "contact_phone": "+65 6000 0004",
+            "notes": "新增马来西亚跨境能力，申请审核。",
+            "review_note": null,
+            "operating_countries": [
+              "MY",
+              "SG"
+            ],
+            "status": "PENDING_REVIEW"
+          },
+          "latest_rejected": null
+        }
+      }
+    }
+  }
+}
