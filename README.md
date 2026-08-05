@@ -4,6 +4,10 @@ Mercury Fleet 是一个面向本地集装箱拖车业务的协作系统。Operat
 
 本项目当前是可在本地运行和演示的 MVP，不是生产环境成品。
 
+## 在线演示（静态，无需安装）
+
+<https://zzlippy.github.io/mercury-fleet-chat/> — 无需本地环境即可查看界面，登录页已预填演示账号。这是纯前端的静态构建，使用预先录制的示例数据模拟后端（见 [apps/web/src/demo/README.md](apps/web/src/demo/README.md)），登录、发消息等操作不会保存，刷新页面即重置。真实的完整功能（含 PostgreSQL 后端）见下方“快速启动”。
+
 ## 先读什么
 
 建议按下面顺序阅读：
