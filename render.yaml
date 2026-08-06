@@ -1,0 +1,24 @@
+databases:
+  - name: mercury-fleet-db
+    plan: free
+    postgresMajorVersion: "16"
+
+services:
+  - type: web
+    name: mercury-fleet-api
+    runtime: node
+    plan: free
+    region: singapore
+    branch: main
+    buildCommand: corepack enable && corepack prepare pnpm@9.15.9 --activate && env -u NODE_ENV pnpm install --frozen-lockfile && pnpm build:web
+    startCommand: pnpm seed && pnpm start:api
+    autoDeployTrigger: commit
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: mercury-fleet-db
+          property: connectionString
+      - key: NODE_ENV
+        value: production
+      - key: NODE_VERSION
+        value: 22.11.0
