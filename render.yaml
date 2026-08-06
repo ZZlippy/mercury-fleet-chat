@@ -10,7 +10,7 @@ services:
     plan: free
     region: singapore
     branch: main
-    buildCommand: corepack enable && corepack prepare pnpm@9.15.9 --activate && env -u NODE_ENV pnpm install --frozen-lockfile && pnpm build:web
+    buildCommand: npm install -g pnpm@9.15.9 && env -u NODE_ENV pnpm install --frozen-lockfile && pnpm build:web
     startCommand: pnpm seed && pnpm start:api
     autoDeployTrigger: commit
     envVars:
