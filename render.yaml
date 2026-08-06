@@ -1,6 +1,7 @@
 databases:
   - name: mercury-fleet-db
     plan: free
+    region: singapore
     postgresMajorVersion: "16"
 
 services:
@@ -11,7 +12,7 @@ services:
     region: singapore
     branch: main
     buildCommand: npm install -g pnpm@9.15.9 && env -u NODE_ENV pnpm install --frozen-lockfile && pnpm build:web
-    startCommand: pnpm seed && pnpm start:api
+    startCommand: pnpm migrate && pnpm seed && pnpm start:api
     autoDeployTrigger: commit
     envVars:
       - key: DATABASE_URL
